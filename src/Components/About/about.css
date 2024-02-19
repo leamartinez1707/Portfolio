@@ -1,0 +1,17 @@
+.info-ul {
+    list-style: circle;
+    padding: 1rem;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+.info-li {
+    list-style: circle;
+    list-style-type: circle;
+    color: white;
+}
+
+.info-div {
+    background-color: #f6f3c2;
+}

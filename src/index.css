@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f89b7e;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #f6f3c2, #f89b7e 50%, #f89b7e 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    transition: all 0.3s ease-in-out;
+}
+
+h1:before {
+    display: block;
+    content: "";
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    bottom: -3px;
+    z-index: 0;
+    position: absolute;
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+    background-position: 0%;
+    cursor: pointer;
+}
+
+h1:hover:before {
+    width: 100%;
+    background-color: #b5a28b;
+}
+
+h2 {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: #f6f3c2;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    color: #75695b;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    color: #000000;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Animation property */
+.icon-habilities {
+    left: calc(50% - 3em);
+    top: calc(50% - 2em);
+    /* right: calc(50% - 3em); */
+    border: none;
+    border-top: 3px solid #b5a28b;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #ffff;
+    font-size: 1em;
+    transform-origin: 0% 5em;
+    animation: wiggle 3s linear infinite;
+}
+
+/* @media (max-width: 640px) {
+    .icon-habilities {
+       
+    }
+} */
+
+
+
+/* Keyframes */
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+
+
+
+/* 
+.color1 { #ebe5b2 };
+.color2 { #f6f3c2 };
+.color3 { #f7c69f };
+.color4 { #f89b7e };
+.color5 { #b5a28b }; 
+*/
