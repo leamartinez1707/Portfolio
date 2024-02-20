@@ -59,14 +59,25 @@ h2 {
 }
 
 h3 {
-    color: #75695b;
+    color: #cea37e;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.tec-title:hover {
+    color: #f6f3c2;
+}
+
 h4 {
     color: #000000;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5 {
+    color: #3f3f3f;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -84,6 +95,10 @@ h4 {
     font-size: 1em;
     transform-origin: 0% 5em;
     animation: wiggle 3s linear infinite;
+}
+
+.img-proy:hover {
+    cursor: pointer;
 }
 
 /* @media (max-width: 640px) {
