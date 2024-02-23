@@ -3,8 +3,8 @@ import './about.css'
 const About = () => {
 
     return (
-        <div>
-            <div className='text-3xl m-4'><h1>
+        <div className='flex flex-col'>
+            <div className='text-3xl m-4 max-w-lg mx-auto'><h1>
                 Información sobre mi:
             </h1></div>
             <div className="flex flex-wrap">
@@ -16,7 +16,7 @@ const About = () => {
                         </div>
                         <div className="flex flex-col justify-between flex-grow">
 
-                            <h5>Actualmente egresado de la carrera como Desarrollador Web Full Stack, habiendo cursado en Coderhouse.</h5>
+                            <h5>Recientemente egresado de la carrera como Desarrollador Web Full Stack, habiendo cursado en Coderhouse.</h5>
 
                         </div>
                     </div>
@@ -52,9 +52,7 @@ const About = () => {
                             <h4 className="  text-lg font-medium underline">Info</h4>
                         </div>
                         <div className="flex flex-col justify-between flex-grow">
-
                             <h5>Desarrollarme como profesional y aportar lo mejor de mi, para el beneficio de la empresa y de los clientes.</h5>
-
                         </div>
                     </div>
                 </div>
