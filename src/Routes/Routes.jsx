@@ -18,7 +18,7 @@ const RoutesNav = () => {
         },
         {
             path: "/Contacto",
-            name: "/Contacto"
+            name: "/Contactarme"
         }
 
     ]

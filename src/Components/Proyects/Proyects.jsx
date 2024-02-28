@@ -8,17 +8,16 @@ const Proyects = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4">
                 <div className='mx-auto max-w-4xl my-2'>
-                    <h1 className='text-3xl my-2'>Proyectos educativos</h1>
-                    <h2 className='text-xl m-4'>A lo largo de mi estudio en Coderhouse, he creado varios proyectos que me han ayudado a pulir mis conocimientos, conocer nuevas tecnologías e impulsarme en nuevas ideas.</h2>
-                    <h2 className='text-xl m-4'>Gracias a ello, he aprendido mucho en el ámbito de Frontend y Backend, agregandole dinamismo y funcionalidades a las webs realizadas, uniendo ambos Stacks.</h2>
+                    <h1 className='text-5xl my-2'>Proyectos educativos</h1>
+                    <h2 className='text-xl p-4 text-pretty'>A lo largo de mi estudio en Coderhouse, he creado varios proyectos que me han ayudado a pulir mis conocimientos, conocer nuevas tecnologías e impulsarme en nuevas ideas.</h2>
+                    <h2 className='text-xl p-4 text-pretty'>Gracias a ello, he aprendido mucho en el ámbito de Frontend y Backend, agregandole dinamismo y funcionalidades a las webs realizadas, uniendo ambos Stacks.</h2>
                 </div>
-
                 <div
-                    className=" lg:max-w-4xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
+                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
                     <div className="relative overflow-hidden bg-cover bg-no-repeat">
                         <img
                             className="rounded-t-lg "
-                            src="/test3.jpg"
+                            src="/pro1.webp"
                             alt="" />
                     </div>
                     <div className="p-2 md:p-10 flex flex-col ">
@@ -35,14 +34,14 @@ const Proyects = () => {
                     </div>
                 </div>
                 <div
-                    className="sm:max-w-md lg:max-w-4xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
+                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
                     <div className="relative overflow-hidden bg-cover bg-no-repeat">
                         <img
                             className="rounded-t-lg "
-                            src="/proyect1.jpg"
+                            src="/proyect1.webp"
                             alt="" />
                     </div>
-                    <div className="p-2 md:p-6 flex flex-col">
+                    <div className="p-2 md:p-10 flex flex-col ">
                         <h4
                             className="text-xl leading-tight font-bold">
                             API REST | Express & Handlebars

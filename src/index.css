@@ -12,7 +12,7 @@ h1 {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #f89b7e;
+    color: #B2A4FF;
     text-decoration: none;
     display: block;
     position: relative;
@@ -20,10 +20,11 @@ h1 {
     text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #f6f3c2, #f89b7e 50%, #f89b7e 50%);
+    background-image: linear-gradient(to right, #f6f3c2, #f89b7e 50%, #f2b2ff 50%);
     background-size: 200% 100%;
     background-position: -100%;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
 }
 
@@ -53,21 +54,24 @@ h1:hover:before {
 
 h2 {
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    color: #f6f3c2;
+    color: #FFB4B4;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 h3 {
-    color: #cea37e;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: #FDF7C3;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .tec-title:hover {
-    color: #f6f3c2;
+    color: #FDF7C3;
 }
 
 h4 {
@@ -75,13 +79,36 @@ h4 {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
 
 h5 {
-    color: #3f3f3f;
+    color: rgb(10 10 10);
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+
+h6 {
+    color: #B2A4FF;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 4px;
+    box-shadow: #B2A4FF 0px 2px 4px, #B2A4FF 0px 7px 13px -3px, #000000 0px -3px 0px inset;
+}
+
+@media (max-width: 640px) {
+    h6 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 640px) {
+    h6 {
+        font-size: 14px;
+    }
 }
 
 p {
@@ -97,7 +124,7 @@ p {
     top: calc(50% - 2em);
     /* right: calc(50% - 3em); */
     border: none;
-    border-top: 3px solid #b5a28b;
+    border-top: 3px solid #B2A4FF;
     border-radius: 0 0 0.2em 0.2em;
     color: #ffff;
     font-size: 1em;
@@ -105,22 +132,23 @@ p {
     animation: wiggle 4s linear infinite;
 }
 
-.habilities-icons a:hover {
-    background-color: #f6f3c2;
-    color: #3f3f3f;
+.habilities-icons h6:hover {
+    background-color: #B2A4FF;
+    color: #ffffff;
+    transition: 0.7s;
+    transform: scale(1.05);
+    border-radius: 10%;
 }
 
 .img-proy:hover {
     cursor: pointer;
 }
 
-/* @media (max-width: 640px) {
-    .icon-habilities {
-       
-    }
-} */
-
-
+.info-div {
+    background-color: #FFDEB4;
+    border: solid 1px #ffffff;
+    box-shadow: #FDF7C3 0px 5px 15px;
+}
 
 /* Keyframes */
 @keyframes wiggle {
@@ -156,13 +184,9 @@ p {
     }
 }
 
-
-
-
-/* 
-.color1 { #ebe5b2 };
-.color2 { #f6f3c2 };
-.color3 { #f7c69f };
-.color4 { #f89b7e };
-.color5 { #b5a28b }; 
-*/
+h10 {
+    color: #B2A4FF;
+    color: #FFB4B4;
+    color: #FFDEB4;
+    color: #FDF7C3;
+}

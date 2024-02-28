@@ -19,8 +19,8 @@ const Navbar = (props) => {
         };
 
         return (
-                <div className="navbar">
-                        <nav className="flex items-center justify-between flex-wrap p-6">
+                <>
+                        <nav className="navbar flex flex-wrap items-center justify-center sm:p-2">
                                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                                         <svg
                                                 className="fill-current h-8 w-8 mr-2"
@@ -29,10 +29,9 @@ const Navbar = (props) => {
                                                 viewBox="0 0 54 54"
                                                 xmlns="http://www.w3.org/2000/svg"
                                         >
-                                                {/* Tu icono SVG */}
                                         </svg>
                                         <span onClick={() => navigate(`/`)} className="font-semibold text-xl tracking-tight hover:cursor-pointer">
-                                                <h2 className='hover:underline'>Inicio</h2>
+                                                <h2 className='title-nav hover:underline'>Inicio</h2>
                                         </span>
                                 </div>
                                 <div className="block sm:hidden">
@@ -48,12 +47,12 @@ const Navbar = (props) => {
                                 </div>
                                 <div
                                         className={`w-full ${isMobileMenuOpen ? 'block' : 'hidden'
-                                                } sm:block flex-grow sm:flex sm:items-center sm:w-auto`}
+                                                } sm:block flex-grow sm:items-center sm:w-auto`}
                                 >
                                         <div className="text-sm sm:flex-grow">
                                                 <ul className="navbar-nav flex flex-row justify-center sm:justify-end">
                                                         {navbar_items.map(({ path, name }, index) => (
-                                                                <li key={index} className="nav-item nav-cat mx-auto sm:mx-8 align-center" onClick={closeMobileMenu}>
+                                                                <li key={index} className="nav-item nav-cat mx-auto sm:mx-0 align-center" onClick={closeMobileMenu}>
                                                                         <NavLink
                                                                                 className="nav-link block sm:hover:underline sm:hover:decoration-4 sm:inline-block lg:mt-0  mr-4"
                                                                                 to={path}
@@ -66,7 +65,7 @@ const Navbar = (props) => {
                                         </div>
                                 </div>
                         </nav>
-                </div>
+                </>
         );
 };
 
