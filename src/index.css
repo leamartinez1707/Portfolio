@@ -20,7 +20,7 @@ h1 {
     text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #f6f3c2, #f89b7e 50%, #f2b2ff 50%);
+    background-image: linear-gradient(to right, #ffffff, #B2A4FF 40%, #B2A4FF 50%);
     background-size: 200% 100%;
     background-position: -100%;
     transition: all 0.3s ease-in-out;
@@ -98,7 +98,6 @@ h6 {
     padding: 4px;
     box-shadow: #B2A4FF 0px 2px 4px, #B2A4FF 0px 7px 13px -3px, #000000 0px -3px 0px inset;
 }
-
 @media (max-width: 640px) {
     h6 {
         font-size: 12px;
