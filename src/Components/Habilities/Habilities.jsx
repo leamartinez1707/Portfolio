@@ -1,8 +1,8 @@
 const Habilities = () => {
     return (
         <>
-            <div>
-                <h3 className="my-2 sm:my-4 text-5xl underline p-2 tec-title cursor-pointer uppercase">Tecnologías</h3>
+            <div className="mx-auto">
+                <h3 className="my-2 sm:my-4 text-4xl sm:text-5xl underline p-2 tec-title cursor-pointer uppercase mx-auto">Tecnologías</h3>
             </div>
             <div className="habilities-icons my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
                 <div className="mx-4 my-2 size-18"><img className="icon-habilities py-2 hover:cursor-pointer mx-auto" src="https://skillicons.dev/icons?i=html" alt="HTML icon" /><h6><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="blank">HTML</a></h6></div>
@@ -78,7 +78,7 @@ const Habilities = () => {
                     </h6>
                 </div>
             </div>
-            <h3 className="my-2 sm:my-4 text-5xl underline p-2 tec-title cursor-pointer uppercase">Habilidades técnicas</h3>
+            <h3 className="my-2 sm:my-4 text-4xl sm:text-5xl underline p-2 tec-title cursor-pointer uppercase">Habilidades técnicas</h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 max-w-4xl justify-center mx-auto">
                 <div className="w-full max-w-1/2 sm:w-full p-6 uppercase mx-auto">
@@ -95,7 +95,7 @@ const Habilities = () => {
                 </div>
             </div>
             <div>
-                <h3 className="my-2 sm:my-4 text-5xl underline p-2 tec-title cursor-pointer uppercase">Habilidades blandas</h3>
+                <h3 className="my-2 sm:my-4 text-4xl sm:text-5xl underline p-2 tec-title cursor-pointer uppercase">Habilidades blandas</h3>
             </div>
             <div className="grid max-w-4xl justify-center mx-auto">
                 <div className="w-full max-w-1/2 sm:w-full p-6 uppercase mx-auto">
