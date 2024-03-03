@@ -5,8 +5,8 @@ const Profile = () => {
         <>
             <section className='profile-info flex flex-col my-4 mx-auto'>
                 <div className='max-w-lg md:max-w-4xl mx-auto'>
-                    <h3 className='my-2 text-sm md:text-lg'>Hola! Mi nombre es Leandro Martínez.</h3>
-                    <h1 className='h1-title my-2 text-5xl sm:text-6xl'>Desarrollador Web Full Stack.</h1>
+                    <h3 className='my-2 text-sm md:text-lg '>Hola! Mi nombre es Leandro Martínez.</h3>
+                    <h1 className='h1-title my-2 text-5xl sm:text-6xl animate__animated animate__slower animate__flash'>Desarrollador Web Full Stack.</h1>
                 </div>
                 <div className='max-w-lg md:max-w-4xl mx-auto '>
                     <a
@@ -16,7 +16,7 @@ const Profile = () => {
                             className='img-div w-8 my-2 mx-auto hover:scale-125 duration-300 '
                             src="https://cdn.icon-icons.com/icons2/107/PNG/512/uruguay_18270.png" alt="Nacionalidad Uruguaya" /></a>
                     <img
-                        className='img-div w-3/4 max-w-xs sm:w-64 mx-auto justify-center align-center my-4 rounded-full'
+                        className='img-div w-3/4 max-w-xs sm:w-64 mx-auto justify-center align-center my-4 rounded-full '
                         src="/profile.jpg" alt="Imagen de perfil" />
                 </div>
             </section>

@@ -4,6 +4,7 @@ import Home from '../Components/Home/Home'
 import Error from '../Components/Error/Error'
 import About from '../Components/About/About'
 import Proyects from '../Components/Proyects/Proyects'
+import Contact from '../Components/Contact/Contact'
 
 const RoutesNav = () => {
 
@@ -30,6 +31,7 @@ const RoutesNav = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/Info' element={< About />} />
                 <Route path='/Proyectos' element={<Proyects />} />
+                <Route path='/Contacto' element={<Contact />} />
                 <Route path='*' element={<Error />} />
             </Routes>
         </BrowserRouter>

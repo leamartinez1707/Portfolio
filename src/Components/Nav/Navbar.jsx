@@ -50,7 +50,7 @@ const Navbar = (props) => {
                                                 } sm:block flex-grow sm:items-center sm:w-auto`}
                                 >
                                         <div className="text-sm sm:flex-grow">
-                                                <ul className="navbar-nav flex flex-row justify-center sm:justify-end">
+                                                <ul className="navbar-nav flex flex-row mx-auto justify-center sm:justify-end">
                                                         {navbar_items.map(({ path, name }, index) => (
                                                                 <li key={index} className="nav-item nav-cat mx-auto sm:mx-0 align-center" onClick={closeMobileMenu}>
                                                                         <NavLink

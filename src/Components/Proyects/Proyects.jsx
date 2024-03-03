@@ -4,8 +4,6 @@ const Proyects = () => {
 
     return (
         <>
-
-
             <div className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4">
                 <div className='mx-auto max-w-4xl my-2'>
                     <h1 className='text-5xl my-2'>Proyectos educativos</h1>

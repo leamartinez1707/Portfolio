@@ -3,8 +3,8 @@ import './about.css'
 const About = () => {
 
     return (
-        <div className='flex flex-col about-bg'>
-            <div><h1 className='text-5xl m-4 mx-auto'>
+        <div className='flex flex-col about-bg gap-x-2 gap-y-4'>
+            <div className='mx-auto max-w-4xl my-2'><h1 className='text-5xl my-2'>
                 Sobre mi
             </h1></div>
             <div className="flex flex-wrap">

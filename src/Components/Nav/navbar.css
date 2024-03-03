@@ -1,10 +1,10 @@
-ul li {
+.navbar-nav li {
     list-style: none;
 }
 
-ul li a {
+.navbar-nav li a {
     position: relative;
-    margin: 20px 0;
+    margin: 20px 15px;
     padding: 10px 10px;
     color: #FFB4B4;
     font-weight: 600;
@@ -12,7 +12,7 @@ ul li a {
     z-index: 1;
 }
 
-ul li a:before {
+.navbar-nav li a:before {
     content: '';
     position: absolute;
     top: 0;
@@ -26,7 +26,7 @@ ul li a:before {
     transition: 0.3s;
 }
 
-ul li a:after {
+.navbar-nav li a:after {
     content: '';
     position: absolute;
     top: 2px;
@@ -40,16 +40,16 @@ ul li a:after {
     z-index: -1;
 }
 
-ul li a:hover {
+.navbar-nav li a:hover {
     color: #FDF7C3;
 }
 
-ul li a:hover:before {
+.navbar-nav li a:hover:before {
     transform: scaleY(1);
     opacity: 1;
 }
 
-ul li a:hover:after {
+.navbar-nav li a:hover:after {
     transform: scaleY(1);
     opacity: 1;
 }
@@ -57,7 +57,8 @@ ul li a:hover:after {
 .burger-menu {
     background-color: #FDF7C3;
 }
-.title-nav:hover{
+
+.title-nav:hover {
     color: #FDF7C3;
     transition-duration: 1s;
     transform: scale(1.2);
