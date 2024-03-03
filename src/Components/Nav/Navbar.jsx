@@ -39,10 +39,15 @@ const Navbar = (props) => {
                                                 className="flex items-center px-3 py-2 border rounded burger-menu"
                                                 onClick={toggleMobileMenu}
                                         >
-                                                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                {isMobileMenuOpen === false ? <svg className="fill-current size-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                                         <title>Menu</title>
                                                         <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                                                </svg>
+                                                </svg> :
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="fill-current size-3" viewBox="0 0 50 50"
+                                                        >
+                                                                <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                                                        </svg>}
+
                                         </button>
                                 </div>
                                 <div
