@@ -7,7 +7,7 @@ const Proyects = () => {
             <div className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4">
                 <div className='mx-auto max-w-4xl my-2'>
                     <h1 className='text-5xl my-2'>Proyectos educativos</h1>
-                    <h2 className='text-xl p-4 text-pretty'>A lo largo de mi estudio en Coderhouse, he creado varios proyectos que me han ayudado a pulir mis conocimientos, conocer nuevas tecnologías e impulsarme en nuevas ideas.</h2>
+                    <h2 className='text-xl p-4 text-pretty'>A lo largo de mi camino como Desarrollador Web, he creado varios proyectos que me han ayudado a pulir mis conocimientos, conocer nuevas tecnologías e impulsarme en nuevas ideas.</h2>
                     <h2 className='text-xl p-4 text-pretty'>Gracias a ello, he aprendido mucho en el ámbito de Frontend y Backend, agregandole dinamismo y funcionalidades a las webs realizadas, uniendo ambos Stacks.</h2>
                 </div>
                 <div
@@ -62,16 +62,17 @@ const Proyects = () => {
                     <div className="p-2 md:p-10 flex flex-col ">
                         <h4
                             className="text-xl leading-tight font-bold">
-                            APP Clima
+                            APP Clima | React & Tailwind
                         </h4>
                         <p className="py-4 text-base">
-                            Mini proyecto de una App del clima, donde se puede consultar el tiempo en cualquier ciudad del mundo.
+                            Mini proyecto de una App del clima, donde se puede consultar el tiempo en cualquier ciudad del mundo. <br />
+                            La idea de este proyecto es prácticar React y su ecosistema. Se utilizó Tailwind para el diseño. <br />
+                            Se le sumaran funciones con el tiempo para seguir desarrollando la App.
                         </p>
                         <a href="https://appclima-lemon.vercel.app/" className="btn-ver mx-auto text-lg p-2 h-12 w-48 overflow-hidden rounded-lg  text-white shadow" target="blank">VER
                         </a>
                     </div>
                 </div>
-                <h1 className='text-3xl m-8'>Proyectos profesionales</h1>
             </div>
         </>
     )

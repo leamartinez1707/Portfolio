@@ -84,16 +84,18 @@ const Habilities = () => {
                 <div className="w-full max-w-1/2 sm:w-full p-6 uppercase mx-auto">
                     <h6 className="text-lg sm:text-xl m-2 text-white">HTML</h6>
                     <h6 className="text-lg sm:text-xl m-2 text-white">CSS</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">JS</h6>
+                    <h6 className="text-lg sm:text-xl m-2 text-white">JAVASCRIPT</h6>
                     <h6 className="text-lg sm:text-xl m-2 text-white">REACT</h6>
                     <h6 className="text-lg sm:text-xl m-2 text-white">EXPRESS</h6>
+                    <h6 className="text-lg sm:text-xl m-2 text-white">MONGODB</h6>
+
                 </div>
                 <div className="w-full max-w-1/2 sm:w-full p-6 uppercase mx-auto">
                     <h6 className="text-lg sm:text-xl m-2 text-white">Diseño web adaptable</h6>
                     <h6 className="text-lg sm:text-xl m-2 text-white">CSS | Frameworks</h6>
                     <h6 className="text-lg sm:text-xl m-2 text-white">NPM | Gestión de paquetes</h6>
                     <h6 className="text-lg sm:text-xl m-2 text-white">GIT | Control de versión</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Testing</h6>
+                    <h6 className="text-lg sm:text-xl m-2 text-white">PRUEBAS UNITARIAS</h6>
                 </div>
             </div>
             <div>
