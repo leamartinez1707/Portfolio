@@ -133,32 +133,30 @@ const Habilities = () => {
             </div >
             <div
                 data-aos="fade-right"
-                data-aos-offset="1000"
                 className="mx-auto">
                 <h3
                     className="my-2 sm:my-4 text-4xl sm:text-5xl p-2 tec-title cursor-pointer uppercase">Habilidades técnicas</h3>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 max-w-4xl justify-center mx-auto">
                 <div className="w-full max-w-1/2 sm:w-full p-6 mx-auto" data-aos="fade-down-left">
-                    <h6 className="text-lg sm:text-xl m-2 text-white">HTML</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">CSS</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Javascript</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">React</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Express</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">MongoDB</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">HTML</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">CSS</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Javascript</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">React</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Express</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">MongoDB</h6>
 
                 </div>
                 <div className="w-full max-w-1/2 sm:w-full p-6 mx-auto" data-aos="fade-down-right">
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Diseño web adaptable</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Frameworks CSS</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Npm | Gestión de paquetes</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Git | Control de versión</h6>
-                    <h6 className="text-lg sm:text-xl m-2 text-white">Testing</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Diseño web adaptable</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Frameworks CSS</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Npm | Gestión de paquetes</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Git | Control de versión</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Testing</h6>
                 </div>
             </div>
             <div
                 data-aos="fade-left"
-                data-aos-offset="1000"
                 className="mx-auto">
                 <h3
                     data-aos="fade-left"
