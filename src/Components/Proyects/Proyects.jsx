@@ -73,6 +73,28 @@ const Proyects = () => {
                         </a>
                     </div>
                 </div>
+                <div
+                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
+                    <div className="relative overflow-hidden bg-cover bg-no-repeat">
+                        <img
+                            className="rounded-t-lg "
+                            src="/mirestaurante.webp"
+                            alt="" />
+                    </div>
+                    <div className="p-2 md:p-10 flex flex-col ">
+                        <h4
+                            className="text-xl leading-tight font-bold">
+                            Mi Restaurante | React & Tailwind
+                        </h4>
+                        <p className="py-4 text-base">
+                            Proyecto de una aplicación web, donde se simula un restaurante y el empleado puede trabajar con la carta, agregando productos a la lista, y la propina dejada por su cliente, para luego sumar el total y enviar el ticket. <br />
+                            La idea de este proyecto continuar con la práctica de React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño. <br />
+                            Se le sumaran funciones con el tiempo para seguir desarrollando la App.
+                        </p>
+                        <a href="https://mirestauranteuy.netlify.app/" className="btn-ver mx-auto text-lg p-2 h-12 w-48 overflow-hidden rounded-lg  text-white shadow" target="blank">VER
+                        </a>
+                    </div>
+                </div>
             </div>
         </>
     )

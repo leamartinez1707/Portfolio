@@ -150,9 +150,12 @@ p {
 }
 
 .info-div {
-    background-color: #FFDEB4;
-    border: solid 1px #ffffff;
-    box-shadow: #fdf7c317 0px 5px 15px;
+    /* background-color: hwb(0 70% 0%); */
+    box-shadow: hsla(0, 0%, 100%, 0.377) 0px 5px 15px;
+}   
+
+.info-div p {
+    color: white;
 }
 
 /* Keyframes */
