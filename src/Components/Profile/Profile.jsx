@@ -25,7 +25,7 @@ const Profile = () => {
                     </a>
                     <img
                         className='img-div w-3/4 max-w-xs sm:w-64 mx-auto justify-center align-center my-4 rounded-full '
-                        src="/profile.jpg" alt="Imagen de perfil" />
+                        src="/profile.webp" alt="Imagen de perfil" />
                 </div>
             </section>
         </>

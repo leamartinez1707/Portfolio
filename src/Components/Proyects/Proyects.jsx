@@ -12,10 +12,10 @@ const Proyects = () => {
                     <h2 className='text-xl p-4 text-pretty'>Gracias a ello, he aprendido mucho en el ámbito de Frontend y Backend, agregandole dinamismo y funcionalidades a las webs realizadas, uniendo ambos Stacks.</h2>
                 </div>
                 <div
-                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
+                    className="sm:max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
                     <div className="relative overflow-hidden bg-cover bg-no-repeat">
                         <Carousel
-                            className="rounded-xl"
+                            className="rounded-t-xl"
                             navigation={({ setActiveIndex, activeIndex, length }) => (
                                 <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                                     {new Array(length).fill("").map((_, i) => (
@@ -46,7 +46,7 @@ const Proyects = () => {
                             />
                         </Carousel>
                     </div>
-                    <div className="p-2 md:p-10 flex flex-col ">
+                    <div className="p-2 md:p-10 flex flex-col bg-white ">
                         <h4
                             className="text-xl leading-tight font-bold">
                             E-commerce | React & Firebase
@@ -61,7 +61,7 @@ const Proyects = () => {
                     </div>
                 </div>
                 <div
-                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
+                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
                     <div className="relative overflow-hidden bg-cover bg-no-repeat">
                         <Carousel
                             className="rounded-xl"
@@ -95,7 +95,7 @@ const Proyects = () => {
                             />
                         </Carousel>
                     </div>
-                    <div className="p-2 md:p-10 flex flex-col ">
+                    <div className="p-2 md:p-10 flex flex-col bg-white">
                         <h4
                             className="text-xl leading-tight font-bold">
                             API REST | Express & Handlebars
@@ -108,14 +108,14 @@ const Proyects = () => {
                     </div>
                 </div>
                 {/* <div
-                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
+                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
                     <div className="relative overflow-hidden bg-cover bg-no-repeat">
                         <img
                             className="rounded-t-lg "
                             src="/617shots_so.webp"
                             alt="" />
                     </div>
-                    <div className="p-2 md:p-10 flex flex-col ">
+                    <div className="p-2 md:p-10 flex flex-col bg-white ">
                         <h4
                             className="text-xl leading-tight font-bold">
                             APP Clima | React & Tailwind
@@ -130,7 +130,7 @@ const Proyects = () => {
                     </div>
                 </div> */}
                 <div
-                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
+                    className="sm:max-w-md lg:max-w-3xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
                     <div className="relative overflow-hidden bg-cover bg-no-repeat">
                         <Carousel
                             className="rounded-xl"
@@ -164,7 +164,7 @@ const Proyects = () => {
                             />
                         </Carousel>
                     </div>
-                    <div className="p-2 md:p-10 flex flex-col ">
+                    <div className="p-2 md:p-10 flex flex-col bg-white ">
                         <h4
                             className="text-xl leading-tight font-bold">
                             Mi Restaurante | React & Tailwind
