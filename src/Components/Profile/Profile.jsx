@@ -18,7 +18,11 @@ const Profile = () => {
                     </a>
                     <a
                         className='text-white p-4 '
-                        href="/download/CV.pdf" download><button className='bg-white font-bold p-1 text-black rounded-md'>Descargar CV</button></a>
+                        href="/download/CV.pdf" download>
+                        <button className="bg-transparent text-blue-900  font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-white rounded">
+                            Descargar CV
+                        </button>
+                    </a>
                     <img
                         className='img-div w-3/4 max-w-xs sm:w-64 mx-auto justify-center align-center my-4 rounded-full '
                         src="/profile.jpg" alt="Imagen de perfil" />
