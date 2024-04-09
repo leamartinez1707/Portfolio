@@ -31,7 +31,7 @@ const Navbar = (props) => {
                                         >
                                         </svg>
                                         <span onClick={() => navigate(`/`)} className="font-semibold text-xl tracking-tight hover:cursor-pointer">
-                                                <h2 className='title-nav hover:underline'>Inicio</h2>
+                                                <h2 className='title-nav hover:underline p-1'>Inicio</h2>
                                         </span>
                                 </div>
                                 <div className="block sm:hidden">

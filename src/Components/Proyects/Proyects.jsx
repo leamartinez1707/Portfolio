@@ -35,7 +35,7 @@ const Proyects = () => {
                     alt3='Tercera imagen del proyecto número tres'
                     title='API REST | Express & Handlebars'
                     description='Proyecto final del curso Programación Backend, Coderhouse. Creamos una API REST funcional, utilizando vistas con Handlebars.js. Permitiendo a los usuarios poder realizar compras, con pasarela de pago STRIPE. El usuario ADMIN puede realizar CRUD de productos y editar o eliminar usuarios. Documentación de la API con Swagger.'
-                    technologies='#EXPRESS #HANDLEBARS #MONGODB #STRIPE #SWAGGER #PASSPORTJS #MOCHA&CHAI #SOCKET.IO '
+                    technologies='#EXPRESS #HANDLEBARS #TAILWIND #MONGODB #STRIPE #SWAGGER #PASSPORTJS #MOCHA&CHAI #SOCKET.IO '
                     weblink='https://elemshop.up.railway.app/'
                     github='https://github.com/leamartinez1707/backend-47290'
                 />
@@ -50,7 +50,7 @@ const Proyects = () => {
                     description='Proyecto de una aplicación web, donde se simula un restaurante y el empleado puede trabajar con la carta, agregando productos a la lista, y la propina dejada por su cliente, para luego sumar el total y enviar el ticket.
                     La idea de este proyecto continuar con la práctica de React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño.
                     Se le sumaran funciones con el tiempo para seguir desarrollando la App.'
-                    technologies='#VITE #REACT #TYPESCRIPT #TAILWIND '
+                    technologies='#VITE #REACT #TYPESCRIPT #TAILWIND'
                     weblink='https://mirestauranteuy.netlify.app/'
                     github='https://github.com/leamartinez1707/mirestaurante'
                 />

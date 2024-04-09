@@ -105,7 +105,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                         <DialogBody>
                             <img
                                 alt="nature"
-                                className="h-[48rem] w-full rounded-lg object-cover object-center"
+                                className="h-[28rem] md:h-[48rem] w-full rounded-lg object-contain md:object-fit object-center"
                                 src={image}
                             />
                         </DialogBody>
