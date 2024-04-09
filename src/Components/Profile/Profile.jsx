@@ -19,7 +19,7 @@ const Profile = () => {
                     <a
                         className='text-white p-4 '
                         href="/download/CV.pdf" download>
-                        <button className="bg-transparent text-blue-900  font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-white rounded">
+                        <button className="bg-transparent text-white  font-semibold hover:text-white py-2 px-4 border border-blue-900 hover:border-white rounded">
                             Descargar CV
                         </button>
                     </a>

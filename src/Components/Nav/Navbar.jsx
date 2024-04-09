@@ -20,7 +20,7 @@ const Navbar = (props) => {
 
         return (
                 <>
-                        <nav className="navbar flex flex-wrap items-center justify-center sm:p-2 max-w-4xl mx-auto">
+                        <nav className="navbar flex flex-wrap items-center justify-between sm:p-2 max-w-4xl mx-auto">
                                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                                         <svg
                                                 className="fill-current h-8 w-8 mr-2"

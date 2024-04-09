@@ -1,8 +1,15 @@
 /* eslint-disable react/prop-types */
-import { IconButton } from "@material-tailwind/react"
-import { Carousel } from '@material-tailwind/react'
-export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, description, technologies, title, weblink }) => {
+import { Carousel, IconButton, Dialog, DialogBody, DialogHeader, Button } from '@material-tailwind/react'
+import { useState } from "react";
+export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, description, technologies, title, weblink, github }) => {
 
+    const [open, setOpen] = useState(false);
+    const [image, setImage] = useState(0)
+
+    const handleOpen = (img) => {
+        setOpen(!open)
+        setImage(img)
+    }
     return (
         <>
             <div
@@ -57,7 +64,10 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                                         key={i}
                                         className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-black" : "w-4 bg-black/50"
                                             }`}
-                                        onClick={() => setActiveIndex(i)}
+                                        onClick={() => {
+                                            setActiveIndex(i);
+                                        }}
+
                                     />
                                 ))}
                             </div>
@@ -66,19 +76,40 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                         <img
                             src={img1}
                             alt={alt1}
-                            className="h-full w-full object-cover"
+                            className="h-full w-full object-cover hover:cursor-pointer"
+                            onClick={() => handleOpen(img1)}
                         />
                         <img
                             src={img2}
                             alt={alt2}
-                            className="h-full w-full object-cover"
+                            className="h-full w-full object-cover hover:cursor-pointer"
+                            onClick={() => handleOpen(img2)}
                         />
                         <img
                             src={img3}
                             alt={alt3}
-                            className="h-full w-full object-cover"
+                            className="h-full w-full object-cover hover:cursor-pointer"
+                            onClick={() => handleOpen(img3)}
                         />
                     </Carousel>
+                    <Dialog size="xl" open={open} handler={handleOpen}>
+                        <DialogHeader
+                            className='flex justify-end items-end'
+                        >
+                            <Button
+                                onClick={() => setOpen(false)}
+                                color="red" size="sm">
+                                Cerrar
+                            </Button>
+                        </DialogHeader>
+                        <DialogBody>
+                            <img
+                                alt="nature"
+                                className="h-[48rem] w-full rounded-lg object-cover object-center"
+                                src={image}
+                            />
+                        </DialogBody>
+                    </Dialog>
                 </div>
                 <div className="p-2 md:p-10 flex flex-col bg-white ">
                     <h4
@@ -91,13 +122,14 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                         <br />
                         {technologies}
                     </p>
-                    <div className="flex mx-auto">
-                        <a href={weblink} className="btn-ver mx-4 text-lg p-2 h-12 w-48 overflow-hidden rounded-lg  text-white shadow" target="blank">VER
+                    <div className="flex mx-auto items-center">
+                        <a href={weblink} className="btn-ver mx-4 text-lg p-2 sm:w-48 overflow-hidden rounded-lg  text-white shadow" target="_blank">WEB
                         </a>
                         <a
+                            target="_blank"
                             className="mx-4"
-                            href="">
-                            <img src="https://skillicons.dev/icons?i=github" alt="" />
+                            href={github}>
+                            <img src="https://skillicons.dev/icons?i=github" alt="Github Icon" />
                         </a>
                     </div>
                 </div>
