@@ -8,8 +8,9 @@ const Habilities = () => {
                     data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
-                    className="my-2 sm:my-4 text-4xl sm:text-5xl p-2 tec-title cursor-pointer uppercase mx-auto">Tecnologías</h3>
+                    className="my-2 sm:my-4 text-4xl sm:text-5xl p-2 tec-title cursor-pointer uppercase mx-auto">Tecnologías trabajadas</h3>
             </div>
+            <h6 className="my-6 mx-auto text-xl max-w-4xl">Frontend</h6>
             <div className="habilities-icons my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
                 <HabilitiesCard
                     title='HTML'
@@ -46,12 +47,44 @@ const Habilities = () => {
                     link='https://es.react.dev/learn'
                     animate='fade-down'
                 />
+
+                <HabilitiesCard
+                    title='Nest.js'
+                    image='https://skillicons.dev/icons?i=nestjs'
+                    alt='Nest icon'
+                    link='https://nestjs.com/'
+                    animate='fade-up'
+                />
+                <HabilitiesCard
+                    title='Tailwind'
+                    image='https://skillicons.dev/icons?i=tailwind'
+                    alt='Tailwind icon'
+                    link='https://tailwindcss.com/docs/installation'
+                    animate='fade-down'
+                />
+                <HabilitiesCard
+                    title='Bootstrap'
+                    image='https://skillicons.dev/icons?i=bootstrap'
+                    alt='Bootstrap icon'
+                    link='https://getbootstrap.com/'
+                    animate='fade-up'
+                />
+            </div >
+            <h6 className="my-6 mx-auto text-xl max-w-4xl">Backend</h6>
+            <div className="habilities-icons my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
                 <HabilitiesCard
                     title='Node.js'
                     image='https://skillicons.dev/icons?i=nodejs'
                     alt='Nodejs icon'
                     link='https://nodejs.org/en/learn/getting-started/introduction-to-nodejs'
                     animate='fade-up'
+                />
+                <HabilitiesCard
+                    title='Javascript'
+                    image='https://skillicons.dev/icons?i=js'
+                    alt='Javascript icon'
+                    link='https://developer.mozilla.org/es/docs/Web/JavaScript'
+                    animate='fade-down'
                 />
                 <HabilitiesCard
                     title='Vite'
@@ -103,27 +136,6 @@ const Habilities = () => {
                     animate='fade-down'
                 />
                 <HabilitiesCard
-                    title='Nest.js'
-                    image='https://skillicons.dev/icons?i=nestjs'
-                    alt='Nest icon'
-                    link='https://nestjs.com/'
-                    animate='fade-up'
-                />
-                <HabilitiesCard
-                    title='Tailwind'
-                    image='https://skillicons.dev/icons?i=tailwind'
-                    alt='Tailwind icon'
-                    link='https://tailwindcss.com/docs/installation'
-                    animate='fade-down'
-                />
-                <HabilitiesCard
-                    title='Bootstrap'
-                    image='https://skillicons.dev/icons?i=bootstrap'
-                    alt='Bootstrap icon'
-                    link='https://getbootstrap.com/'
-                    animate='fade-up'
-                />
-                <HabilitiesCard
                     title='Vercel'
                     image='https://skillicons.dev/icons?i=vercel'
                     alt='Tailwind icon'
@@ -159,13 +171,16 @@ const Habilities = () => {
                 data-aos="fade-left"
                 className="mx-auto">
                 <h3
-                    data-aos="fade-left"
-                    data-aos-offset="300"
+                    data-aos-offset="100"
                     data-aos-easing="ease-in-sine"
+                    data-aos="fade-left"
                     className="my-2 sm:my-4 text-4xl sm:text-5xl p-2 tec-title cursor-pointer uppercase">Habilidades blandas</h3>
             </div>
             <div className="grid max-w-4xl justify-center mx-auto">
-                <div className="w-full max-w-1/2 sm:w-full p-6 mx-auto" data-aos="flip-left">
+                <div className="w-full max-w-1/2 sm:w-full p-6 mx-auto"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos="flip-left">
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Adaptabilidad</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Comunicación</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Creatividad</h6>

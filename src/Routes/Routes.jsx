@@ -5,6 +5,7 @@ import Error from '../Components/Error/Error'
 import About from '../Components/About/About'
 import Proyects from '../Components/Proyects/Proyects'
 import Contact from '../Components/Contact/Contact'
+import { ScrollToTop } from '../Components/ButtonTop/ScrollToTop'
 
 const RoutesNav = () => {
 
@@ -27,6 +28,7 @@ const RoutesNav = () => {
     return (
         <BrowserRouter>
             <Navbar navbar_items={navbar_items} />
+            <ScrollToTop />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/Info' element={< About />} />
