@@ -186,8 +186,10 @@ const Habilities = () => {
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Creatividad</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Gestión del tiempo</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Iniciativa</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Organización</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Pensamiento crítico</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Resolución de problemas</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Responsable</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Trabajo en equipo</h6>
                 </div>
             </div>

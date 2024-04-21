@@ -37,7 +37,6 @@ const RoutesNav = () => {
                 <Route path='*' element={<Error />} />
             </Routes>
         </BrowserRouter>
-
     )
 }
 

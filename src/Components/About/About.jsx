@@ -9,7 +9,12 @@ const About = () => {
                     Sobre mi
                 </h1>
             </div>
-            <div className="flex flex-wrap my-6 gap-2">
+            <div
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos="flip-left"
+                className="flex flex-wrap my-6 gap-2"
+            >
                 <div className="max-w-sm mx-auto info-div">
                     <p className="p-4" >A fines de 2022 inicié mi camino en la programación, ya que me atraía el poder resolver problemas creando aplicaciones web.</p>
                 </div>
