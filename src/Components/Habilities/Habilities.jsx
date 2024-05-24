@@ -165,6 +165,7 @@ const Habilities = () => {
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Npm | Gestión de paquetes</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Git | Control de versión</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Testing</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">API REST</h6>
                 </div>
             </div>
             <div
