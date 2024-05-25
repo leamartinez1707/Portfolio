@@ -34,10 +34,10 @@ const About = () => {
                     <p className="p-4" >También me encuentro estudiando inglés, ya que lo considero muy importante para leer documentación y conectar con gente que hable este idioma. De momento estoy en nivel B2.</p>
                 </div>
                 <div className="max-w-sm mx-auto info-div">
-                    <p className="p-4" >Me motiva seguir aprendiendo, continuar creando proyectos personales y profesionales que aporten a mi carrera como Desarrollador.</p>
+                    <p className="p-4" >Me motiva seguir aprendiendo, continuar con la creación de proyectos personales y profesionales, que aporten a mi carrera como Desarrollador.</p>
                 </div>
                 <div className="max-w-sm mx-auto info-div">
-                    <p className="p-4" >Actualmente estoy enfocado en seguir estudiando y cumplir mi principal objetivo que es adentrarme en el rubro, obtener mi primer trabajo como Desarrollador Web</p>
+                    <p className="p-4" >Actualmente estoy enfocado en seguir estudiando y cumplir mi objetivo principal que es adentrarme en el rubro y obtener mi primer trabajo como Desarrollador Web</p>
                 </div>
             </div>
         </div>
