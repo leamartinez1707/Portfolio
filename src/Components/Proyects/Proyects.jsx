@@ -36,7 +36,7 @@ const Proyects = () => {
                     title='API REST | Express & Handlebars'
                     description='Proyecto final del curso Programación Backend, Coderhouse. Creamos una API REST funcional, utilizando vistas con Handlebars.js. Permitiendo a los usuarios poder realizar compras, con pasarela de pago STRIPE. El usuario ADMIN puede realizar CRUD de productos y editar o eliminar usuarios. Documentación de la API con Swagger.'
                     technologies='#EXPRESS #HANDLEBARS #TAILWIND #MONGODB #STRIPE #SWAGGER #PASSPORTJS #MOCHA&CHAI #SOCKET.IO '
-                    weblink='https://elemshop.up.railway.app/'
+                    weblink='https://backend-47290.onrender.com/'
                     github='https://github.com/leamartinez1707/backend-47290'
                 />
                 <CarouselComponent
