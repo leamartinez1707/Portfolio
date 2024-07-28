@@ -47,14 +47,6 @@ const Habilities = () => {
                     link='https://es.react.dev/learn'
                     animate='fade-down'
                 />
-
-                <HabilitiesCard
-                    title='Nest.js'
-                    image='https://skillicons.dev/icons?i=nestjs'
-                    alt='Nest icon'
-                    link='https://nestjs.com/'
-                    animate='fade-up'
-                />
                 <HabilitiesCard
                     title='Tailwind'
                     image='https://skillicons.dev/icons?i=tailwind'
@@ -85,6 +77,13 @@ const Habilities = () => {
                     alt='Javascript icon'
                     link='https://developer.mozilla.org/es/docs/Web/JavaScript'
                     animate='fade-down'
+                />
+                <HabilitiesCard
+                    title='Nest.js'
+                    image='https://skillicons.dev/icons?i=nestjs'
+                    alt='Nest icon'
+                    link='https://nestjs.com/'
+                    animate='fade-up'
                 />
                 <HabilitiesCard
                     title='Vite'
@@ -155,6 +154,7 @@ const Habilities = () => {
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">CSS</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Javascript</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">React</h6>
+                    <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Node</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">Express</h6>
                     <h6 className="text-lg sm:text-xl m-2 p-2 text-white">MongoDB</h6>
 
