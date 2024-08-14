@@ -27,6 +27,21 @@ const Proyects = () => {
                     github='https://github.com/leamartinez1707/reactProyect2023'
                 />
                 <CarouselComponent
+                    img1='/proyects/proyect3_1.webp'
+                    img2='/proyects/proyect3_2.webp'
+                    img3='/proyects/proyect3_3.webp'
+                    alt="Primera imagen del proyecto número dos"
+                    al2="Segunda imagen del proyecto número dos"
+                    alt3="Tercera imagen del proyecto número dos"
+                    title='Mi Restaurante | React & Tailwind'
+                    description='Proyecto de una aplicación web, donde se simula un restaurante y el empleado puede trabajar con la carta, agregando productos a la lista, y la propina dejada por su cliente, para luego sumar el total y enviar el ticket.
+                        La idea de este proyecto continuar con la práctica de React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño.
+                        Se le sumaran funciones con el tiempo para seguir desarrollando la App.'
+                    technologies='#VITE #REACT #TYPESCRIPT #TAILWIND'
+                    weblink='https://mirestauranteuy.netlify.app/'
+                    github='https://github.com/leamartinez1707/mirestaurante'
+                />
+                <CarouselComponent
                     img1='/proyects/proyect2_1.webp'
                     img2='/proyects/proyect2_2.webp'
                     img3='/proyects/proyect2_3.webp'
@@ -40,19 +55,17 @@ const Proyects = () => {
                     github='https://github.com/leamartinez1707/backend-47290'
                 />
                 <CarouselComponent
-                    img1='/proyects/proyect3_1.webp'
-                    img2='/proyects/proyect3_2.webp'
-                    img3='/proyects/proyect3_3.webp'
-                    alt="Primera imagen del proyecto número dos"
-                    al2="Segunda imagen del proyecto número dos"
-                    alt3="Tercera imagen del proyecto número dos"
-                    title='Mi Restaurante | React & Tailwind'
-                    description='Proyecto de una aplicación web, donde se simula un restaurante y el empleado puede trabajar con la carta, agregando productos a la lista, y la propina dejada por su cliente, para luego sumar el total y enviar el ticket.
-                    La idea de este proyecto continuar con la práctica de React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño.
-                    Se le sumaran funciones con el tiempo para seguir desarrollando la App.'
-                    technologies='#VITE #REACT #TYPESCRIPT #TAILWIND'
-                    weblink='https://mirestauranteuy.netlify.app/'
-                    github='https://github.com/leamartinez1707/mirestaurante'
+                    img1='/proyects/proyect4_1.webp'
+                    img3='/proyects/proyect4_5.webp'
+                    img2='/proyects/proyect4_6.webp'
+                    alt1='Primera imagen del proyecto número cuatro'
+                    alt2='Segunda imagen del proyecto número cuatro'
+                    alt3='Tercera imagen del proyecto número cuatro'
+                    title='To Do App | NestJS | React | MySQL | Prisma'
+                    description='Prueba técnica para entevista. Creación de una aplicación de tareas, incluyendo un sistema de autenticación, donde cada usuario puede crear, editar, eliminar y marcar como completada una tarea. Se utilizó NestJS para el Backend y Prisma para conectarlo con la base de datos. React para el Frontend y MySQL para la base de datos. Estilizado con Tailwind y Css. El proyecto utiliza Turborepo para unificar los paquetes de Frontend y Backend y ejecutar ambos desde una misma terminal.'
+                    technologies='#NEST #JWT #REACT #MYSQL #PRISMA #CSS #TAILWIND'
+                    weblink='https://backend-47290.onrender.com/'
+                    github='https://github.com/leamartinez1707/backend-47290'
                 />
             </div>
         </>
