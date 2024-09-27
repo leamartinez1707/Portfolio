@@ -1,10 +1,15 @@
 const Contact = () => {
     return (
-        <div className='mx-auto max-w-4xl my-2'>
+        <section
+            data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+            className='mx-auto max-w-4xl my-2 mt-12 md:mt-24'>
             <div className="title">
-                <h1 className='text-5xl my-2'>Contacto</h1>
+                <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">Contacto</h1>
             </div>
-            <div className="grid sm:grid-cols-1 max-w-full sm:max-w-md items-center gap-4 p-2 sm:p-8 mx-auto my-6 contact-info">
+            <div className="grid sm:grid-cols-1 max-w-full sm:max-w-md items-center gap-4 p-2 sm:py-8 my-6 contact-info text-left">
                 <h2 className="text-3xl font-extrabold">Hablemos!</h2>
                 <p className="text-md text-gray-50 mt-3">Estás interesado/a en contactarte conmigo? <br /> Envíame un mensaje por mail o en cualquiera de mis redes sociales!</p>
                 <div className="mt-6">
@@ -33,11 +38,6 @@ const Contact = () => {
                                 <img src="https://skillicons.dev/icons?i=github" alt="Github Icon" />
                             </a>
                         </li>
-                        <li className="size-8 rounded-full flex items-center justify-center shrink-0">
-                            <a href="https://www.instagram.com/leamartinez1707/" target="_blank">
-                                <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram Icon" />
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <div className="mt-6">
@@ -56,7 +56,7 @@ const Contact = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

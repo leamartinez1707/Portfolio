@@ -2,7 +2,7 @@ import { Typography } from "@material-tailwind/react";
 
 export const Footer = () => {
     return (
-        <footer className="w-full p-8 bottom-0 mt-12">
+        <footer className="w-full p-8 bottom-0 mt-20 md:mt-32">
 
             <Typography color="white" className="text-center font-normal">
                 &copy; 2024 Desarrollada y diseñada por {''}
