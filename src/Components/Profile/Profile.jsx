@@ -7,20 +7,24 @@ const Profile = () => {
 
     const navigate = useNavigate()
     return (
-        <section className='flex flex-col mt-10 sm:mt-28 max-w-4xl mx-auto' data-aos="fade-right">
+        <section className='flex flex-col mt-10 sm:mt-28 max-w-4xl mx-auto' data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
             <div className='text-left max-w-xl md:max-w-4xl flex'>
                 <h3 className='my-2 text-sm md:text-2xl'>Hola! Mi nombre es Leandro Martínez.</h3>            </div>
             <div className='max-w-lg md:max-w-4xl text-left text-violet-400 typewriterh1'>
                 <Typewriter
                     options={{
                         wrapperClassName: 'my-2 text-5xl sm:text-6xl anta-regular',
-                        strings: ['Desarrollador Web Full Stack'],
+                        strings: ['Desarrollador Full Stack'],
                         autoStart: true,
                         loop: true,
                     }}
                 />
             </div>
-            <div className="w-3/4 mt-12 text-gray-light">
+            <div
+                className="w-3/4 mt-12 text-gray-light">
                 <p className='my-2 text-left text-sm md:text-xl'>
                     Nacido en Uruguay, actualmente residiendo en Montevideo.
                 </p>

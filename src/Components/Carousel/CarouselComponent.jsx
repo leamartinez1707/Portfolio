@@ -111,7 +111,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                         </DialogBody>
                     </Dialog>
                 </div>
-                <div className="p-2 md:p-10 flex flex-col bg-white ">
+                <div className="p-2 md:p-10 flex flex-col bg-white text-black ">
                     <h4
                         className="text-xl leading-tight font-bold">
                         {title}

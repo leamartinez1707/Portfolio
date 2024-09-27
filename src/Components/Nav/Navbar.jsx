@@ -21,7 +21,10 @@ const Navbar = (props) => {
 
         return (
                 <>
-                        <nav className="anta-regular w-full flex flex-col md:flex-wrap items-center justify-between p-4 mx-auto md:max-w-4xl">
+                        <nav
+                                data-aos="flip-right"
+                                data-aos-duration="1500"
+                                className="anta-regular w-full flex flex-col md:flex-wrap items-center justify-between p-4 mx-auto md:max-w-4xl">
                                 <div className='flex justify-between'>
                                         <div className="flex items-center flex-shrink-0 text-white mr-6">
                                                 <span onClick={() => navigate(`/`)} className="font-semibold text-xl tracking-tight hover:cursor-pointer">

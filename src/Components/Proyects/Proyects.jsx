@@ -6,11 +6,16 @@ const Proyects = () => {
 
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4">
-                <div className='mx-auto max-w-4xl my-2'>
-                    <h1 className='text-5xl my-2'>Proyectos educativos</h1>
-                    <h2 className='text-xl p-4 text-pretty'>A lo largo de mi camino como Desarrollador Web, he creado varios proyectos que me han ayudado a pulir mis conocimientos, conocer nuevas tecnologías e impulsarme en nuevas ideas.</h2>
-                    <h2 className='text-xl p-4 text-pretty'>Gracias a ello, he aprendido mucho en el ámbito de Frontend y Backend, agregandole dinamismo y funcionalidades a las webs realizadas, uniendo ambos Stacks.</h2>
+            <div
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500"
+                className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4 mt-12 md:mt-24">
+                <div className='mx-auto max-w-4xl my-2 text-left'>
+                    <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">Proyectos educativos</h1>
+                    <p className='text-xl py-4 text-pretty'>A lo largo de mi camino como Desarrollador Web, he creado varios proyectos que me han ayudado a pulir mis conocimientos, conocer nuevas tecnologías e impulsarme en nuevas ideas.</p>
+                    <p className='text-xl py-4 text-pretty'>Gracias a ello, he aprendido mucho en el ámbito de Frontend y Backend, agregandole dinamismo y funcionalidades a las webs realizadas, uniendo ambos Stacks.</p>
                 </div>
                 <CarouselComponent
                     img1='/proyects/proyect1_1.webp'
@@ -66,6 +71,19 @@ const Proyects = () => {
                     technologies='#NEST #JWT #REACT #MYSQL #PRISMA #CSS #TAILWIND'
                     weblink='https://backend-47290.onrender.com/'
                     github='https://github.com/leamartinez1707/backend-47290'
+                />
+                <CarouselComponent
+                    img1='/proyects/proyect5_1.jpg'
+                    img3='#'
+                    img2='#'
+                    alt1='Primera imagen del proyecto número cinco'
+                    alt2='Segunda imagen del proyecto número cinco'
+                    alt3='Tercera imagen del proyecto número cinco'
+                    title='SaludNet | Telemedicina | Express | React | MongoDB'
+                    description='SaludNet es una plataforma digital de telemedicina diseñada para simplificar y optimizar el acceso a servicios de salud. Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios.'
+                    technologies='#NODE #EXPRESS #JWT #REACT #MONGODB #MONGOOSE #TAILWIND #VERCEL'
+                    weblink='https://c20-37-n-node-react.vercel.app/'
+                    github='https://github.com/No-Country-simulation/c20-37-n-node-react'
                 />
             </div>
         </>
