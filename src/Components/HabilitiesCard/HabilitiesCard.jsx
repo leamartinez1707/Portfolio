@@ -4,7 +4,7 @@ export const HabilitiesCard = ({ image, alt, link, title, animate }) => {
     return (
         <div
             data-aos={animate}
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             className="mx-4 my-2 size-18">
             <img
                 className="icon-habilities py-2 hover:cursor-pointer mx-auto" src={image} alt={alt} />
