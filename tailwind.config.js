@@ -8,7 +8,13 @@ export default {
     "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        // Configure your color palette here
+        'gray-light': '#ececec',
+        "titles": "#B2A4FF",
+      }
+    },
   },
   plugins: [],
 }
