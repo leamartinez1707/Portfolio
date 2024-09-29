@@ -3,7 +3,12 @@ import { SoftSkills } from "./SoftSkills"
 
 const Habilities = () => {
     return (
-        <div className="max-w-4xl mx-auto mt-24">
+        <div
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+            className="max-w-4xl mx-auto mt-24">
             <HardSkills />
             <SoftSkills />
         </div>

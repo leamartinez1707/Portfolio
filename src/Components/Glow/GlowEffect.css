@@ -1,0 +1,27 @@
+/* GlowEffect.css */
+.glow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  /* Evita interferir con los clics del usuario */
+  z-index: 999;
+  /* Asegúrate de que el brillo esté visible, si es necesario */
+}
+
+.glow {
+  position: absolute;
+  width: 80px;
+  /* Tamaño reducido para un efecto más sutil */
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.116), rgba(255, 255, 255, 0));
+  /* Color suave y translúcido */
+  pointer-events: none;
+  transition: transform 0.2s ease-out, opacity 0.3s;
+  /* Transición suave para movimiento y opacidad */
+  opacity: 0.8;
+  /* Un brillo menos intenso */
+}

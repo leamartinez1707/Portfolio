@@ -9,7 +9,7 @@ const RoutesNav = () => {
     const navbar_items = [
         {
             path: "#infoSection",
-            name: "/Info"
+            name: "/Sobre mi"
         },
         {
             path: "#proyectsSection",
@@ -17,7 +17,7 @@ const RoutesNav = () => {
         },
         {
             path: "#contactSection",
-            name: "/Contactarme"
+            name: "/Contacto"
         }
 
     ]

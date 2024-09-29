@@ -5,12 +5,13 @@ import './proyects.css'
 const Proyects = () => {
 
     return (
-        <div id='proyectsSection'>
+        <div
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+            id='proyectsSection'>
             <div
-                data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
-                data-aos-duration="500"
                 className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4 mt-12 md:mt-24">
 
                 <div className='mx-auto max-w-4xl my-2 text-left'>
