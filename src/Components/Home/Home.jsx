@@ -1,11 +1,17 @@
+import About from '../About/About'
+import Contact from '../Contact/Contact'
 import Habilities from '../Habilities/Habilities'
 import Profile from '../Profile/Profile'
+import Proyects from '../Proyects/Proyects'
 
 const Home = () => {
     return (
-        <div className="max-w-xs sm:max-w-2xl lg:max-w-6xl mx-auto">
+        <div className="mx-auto px-4 max-w-4xl">
             <Profile />
+            <Proyects />
             <Habilities />
+            <About />
+            <Contact />
         </div>
     )
 

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 // import './navbar.css'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import { Button } from '@material-tailwind/react';
 
@@ -64,12 +64,12 @@ const Navbar = (props) => {
                                                 <ul className="flex mx-auto justify-center align-middle items-center sm:gap-8 sm:justify-end md:flex-row gap-2">
                                                         {navbar_items.map(({ path, name }, index) => (
                                                                 <li key={index} className="nav-item nav-cat mx-auto sm:mx-0 align-center" onClick={closeMobileMenu}>
-                                                                        <NavLink
+                                                                        <a
                                                                                 className="nav-link block sm:hover:underline sm:hover:decoration-4 sm:inline-block lg:mt-0  mr-4"
-                                                                                to={path}
+                                                                                href={path}
                                                                         >
                                                                                 {name}
-                                                                        </NavLink>
+                                                                        </a>
                                                                 </li>
                                                         ))}
 

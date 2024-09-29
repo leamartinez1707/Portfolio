@@ -13,15 +13,15 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
     return (
         <>
             <div
-                className="max-w-4xl mx-auto block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-                <div className="relative overflow-hidden bg-cover bg-no-repeat">
+                className="flex flex-col md:flex-row max-w-4xl mx-auto rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] justify-between rounded-t-xl">
+                <div className="relative overflow-hidden size-full sm:w-1/2 h-full max-h-80 my-auto mx-auto">
                     <Carousel
-                        className="rounded-t-xl"
+                        className=""
                         prevArrow={({ handlePrev }) => (
                             <IconButton
                                 variant="text"
                                 color="white"
-                                size="lg"
+                                size="md"
                                 onClick={handlePrev}
                                 className="!absolute top-2/4 left-4 -translate-y-2/4 hover:bg-gray-100/20"
                             >
@@ -43,7 +43,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                                 color="white"
                                 size="lg"
                                 onClick={handleNext}
-                                className="!absolute top-2/4 !right-4 -translate-y-2/4 hover:bg-gray-100/20"
+                                className="!absolute top-2/4 !right-4 -translate-y-2/4 bg-gray-300/20 hover:bg-gray-100/50"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -76,19 +76,19 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                         <img
                             src={img1}
                             alt={alt1}
-                            className="h-full w-full object-cover hover:cursor-pointer"
+                            className="size-full object-cover hover:cursor-pointer"
                             onClick={() => handleOpen(img1)}
                         />
                         <img
                             src={img2}
                             alt={alt2}
-                            className="h-full w-full object-cover hover:cursor-pointer"
+                            className="size-full object-cover hover:cursor-pointer"
                             onClick={() => handleOpen(img2)}
                         />
                         <img
                             src={img3}
                             alt={alt3}
-                            className="h-full w-full object-cover hover:cursor-pointer"
+                            className="size-full object-cover hover:cursor-pointer"
                             onClick={() => handleOpen(img3)}
                         />
                     </Carousel>
@@ -111,23 +111,25 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                         </DialogBody>
                     </Dialog>
                 </div>
-                <div className="p-2 md:p-10 flex flex-col bg-white text-black ">
+
+                <div className="p-2 flex flex-col gap-y-4 bg-white text-black justify-between items-start w-full sm:w-1/2 max-h-80 overflow-y-auto mx-auto">
                     <h4
-                        className="text-xl leading-tight font-bold">
+                        className="text-xl leading-tight font-bold text-left">
                         {title}
 
                     </h4>
-                    <p className="py-4 text-base">
+                    <p className="text-left text-base">
                         {description}
-                        <br />
+                    </p>
+                    <p className='bg-black/20 text-black rounded-sm text-left p-1'>
                         {technologies}
                     </p>
-                    <div className="flex mx-auto items-center">
-                        <a href={weblink} className="btn-ver mx-4 text-lg p-2 sm:w-48 overflow-hidden rounded-lg  text-white shadow" target="_blank">WEB
+                    <div className="flex">
+                        <a href={weblink} className="btn-ver text-lg p-2 px-4 sm:w-48 overflow-hidden rounded-lg text-white shadow hover:cursor-pointer" target="_blank">WEB
                         </a>
                         <a
                             target="_blank"
-                            className="mx-4"
+                            className="px-4"
                             href={github}>
                             <img src="https://skillicons.dev/icons?i=github" alt="Github Icon" />
                         </a>
