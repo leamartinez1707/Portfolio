@@ -23,7 +23,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                                 color="white"
                                 size="md"
                                 onClick={handlePrev}
-                                className="!absolute top-2/4 left-4 -translate-y-2/4 hover:bg-gray-100/20"
+                                className="!absolute top-2/4 left-4 -translate-y-2/4 bg-gray-300/20 hover:bg-gray-100/50"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                                 {new Array(length).fill("").map((_, i) => (
                                     <span
                                         key={i}
-                                        className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-black" : "w-4 bg-black/50"
+                                        className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-black" : "w-4 bg-white/50"
                                             }`}
                                         onClick={() => {
                                             setActiveIndex(i);
@@ -125,7 +125,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                         {technologies}
                     </p>
                     <div className="flex">
-                        <a href={weblink} className="btn-ver text-lg p-2 px-4 sm:w-48 overflow-hidden rounded-lg text-white shadow hover:cursor-pointer" target="_blank">WEB
+                        <a href={weblink} className="btn-ver px-1 text-md align-middle items-center flex justify-center sm:w-48 overflow-hidden rounded-lg text-white shadow hover:cursor-pointer" target="_blank">SITIO WEB
                         </a>
                         <a
                             target="_blank"
