@@ -21,6 +21,8 @@ export const ScrollToTop = () => {
             top: 0,
             behavior: 'smooth',
         });
+        // Reemplazar la URL sin recargar la página
+        window.history.replaceState(null, null, '/');
     }
     return (
         <>
