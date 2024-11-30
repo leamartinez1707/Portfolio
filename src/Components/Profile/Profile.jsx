@@ -34,7 +34,7 @@ const Profile = () => {
                     Me motiva aprender nuevas tecnologías y enfrentar desafíos creativos.
                 </p>
             </div>
-            <span className="animate animate-bounce inline-flex items-center size-fit py-1 px-2 justify-center mb-2 text-sm text-green-800 bg-green-100 rounded-sm dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+            <span className="animate animate-bounce inline-flex items-center size-fit py-1 px-2 justify-center mb-2 text-sm text-green-800 bg-green-100 rounded-sm   backdrop-blur-3xl whitespace-nowrap">
                 Disponible para trabajar
             </span>
 
