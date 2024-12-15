@@ -14,7 +14,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
         <article>
             <div
                 className="flex flex-col md:flex-row max-w-4xl mx-auto rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] justify-between rounded-t-xl">
-                <div className="relative overflow-hidden size-full sm:w-1/2 h-full max-h-80 my-auto mx-auto">
+                <div className="relative overflow-hidden size-full max-h-96 my-auto mx-auto">
                     <Carousel
                         className=""
                         prevArrow={({ handlePrev }) => (
@@ -133,8 +133,8 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                 {/* <p className='bg-black/20 text-white rounded-sm text-left p-1'>
                     {technologies}
                 </p> */}
-                <div className="flex">
-                    <a href={weblink} className="btn-ver px-1 text-md align-middle items-center flex justify-center sm:w-48 overflow-hidden rounded-lg shadow hover:cursor-pointer" target="_blank">VISITAR WEB
+                <div className="flex w-full">
+                    <a href={weblink} className="border-violet-800 bg-violet-800 hover:bg-violet-900 duration-300 transition-colors border-2 px-2 text-md align-middle items-center flex justify-center w-full sm:w-48 overflow-hidden rounded-lg shadow hover:cursor-pointer" target="_blank">VISITAR WEB
                     </a>
                     <a
                         target="_blank"

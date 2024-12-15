@@ -14,11 +14,11 @@ const Proyects = () => {
             <div
                 className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4 mt-8 md:mt-12">
 
-                <div className='mx-auto max-w-4xl my-2 text-left'>
+                <div className='max-w-4xl my-2 text-left'>
                     <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">Proyectos</h1>
                 </div>
 
-                <div className='gap-y-4 flex flex-col'>
+                <div className='gap-y-4 md:gap-y-12 flex flex-col'>
                     <CarouselComponent
                         img3='/proyects/proyect5_2.png'
                         img1='/proyects/proyect5_1.png'
@@ -26,7 +26,7 @@ const Proyects = () => {
                         alt1='Primera imagen del proyecto número cinco'
                         alt2='Segunda imagen del proyecto número cinco'
                         alt3='Tercera imagen del proyecto número cinco'
-                        title='SaludNet'
+                        title='SaludNet | Telemedicina'
                         description='SaludNet es una plataforma digital de telemedicina diseñada para simplificar y optimizar el acceso a servicios de salud. Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. 
                         Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios.'
                         technologies={['#NODE', '#EXPRESS', '#JWT', '#REACT', '#MONGODB', '#MONGOOSE', '#TAILWIND', '#VERCEL']}
@@ -81,14 +81,14 @@ const Proyects = () => {
                         alt1='Primera imagen del proyecto número seis'
                         alt2='Segunda imagen del proyecto número seis'
                         alt3='Tercera imagen del proyecto número seis'
-                        title='Criptomonedas'
+                        title='Cripto Status'
                         description='Proyecto de una aplicación web, donde se simula un sitio de criptomonedas, con la posibilidad de ver el precio de las mismas en tiempo real. La idea de este proyecto fue seguir practicando con React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño, Zod para la validación de datos y Zustand para el manejo de estados.'
                         technologies={['#REACT', '#TYPESCRIPT', '#ZOD', '#ZUSTAND', '#TAILWIND']}
                         weblink='https://criptomoneda-divisas.netlify.app/'
                         github='https://github.com/leamartinez1707/cripto-status'
                     />
 
-                    <CarouselComponent
+                    {/* <CarouselComponent
                         img1='/proyects/proyect7_1.png'
                         img3='/proyects/proyect7_2.png'
                         img2='/proyects/proyect7_3.png'
@@ -100,7 +100,7 @@ const Proyects = () => {
                         technologies={['#NEST', '#JWT', '#REACT', '#MYSQL', '#PRISMA', '#CSS', '#TAILWIND']}
                         weblink='https://backend-47290.onrender.com/'
                         github='https://github.com/leamartinez1707/backend-47290'
-                    />
+                    /> */}
                     <CarouselComponent
                         img1='/proyects/proyect3_1.webp'
                         img2='/proyects/proyect3_2.webp'
@@ -108,7 +108,7 @@ const Proyects = () => {
                         alt="Primera imagen del proyecto número dos"
                         al2="Segunda imagen del proyecto número dos"
                         alt3="Tercera imagen del proyecto número dos"
-                        title='Mi Restaurante | React & Tailwind'
+                        title='Mi Restaurante'
                         description='Proyecto de una aplicación web, donde se simula un restaurante y el empleado puede trabajar con la carta, agregando productos a la lista, y la propina dejada por su cliente, para luego sumar el total y enviar el ticket.
                         La idea de este proyecto continuar con la práctica de React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño.
                         Se le sumaran funciones con el tiempo para seguir desarrollando la App.'

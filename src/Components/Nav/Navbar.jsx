@@ -1,9 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
-import DownloadCv from '../DownloadCvButton/DownloadCv';
-
-
 const Navbar = (props) => {
 
         const { navbar_items } = props
@@ -66,9 +63,6 @@ const Navbar = (props) => {
                                                         ))}
 
                                                 </ul>
-                                                <div className='block md:hidden mt-6'>
-                                                        <DownloadCv />
-                                                </div>
                                         </div>
                                 </div>
                         </nav>
