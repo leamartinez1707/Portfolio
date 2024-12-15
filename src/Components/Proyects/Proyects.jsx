@@ -12,7 +12,7 @@ const Proyects = () => {
             data-aos-duration="500"
             id='proyectsSection'>
             <div
-                className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4 mt-12 md:mt-24">
+                className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4 mt-8 md:mt-12">
 
                 <div className='mx-auto max-w-4xl my-2 text-left'>
                     <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">Proyectos</h1>
