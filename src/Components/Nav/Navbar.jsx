@@ -29,9 +29,6 @@ const Navbar = (props) => {
                                                 <span onClick={() => navigate(`/`)} className="font-semibold text-xl tracking-tight hover:cursor-pointer">
                                                         <h2 className='title-nav hover:underline p-1'>Leandro Martínez</h2>
                                                 </span>
-                                                <div className='hidden md:block ml-4'>
-                                                        <DownloadCv />
-                                                </div>
                                         </div>
 
                                         <div className="block sm:hidden">
