@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
+import LanguageSwitcher from '../Language/LanguageSwitcher';
 const Navbar = (props) => {
 
         const { navbar_items } = props
@@ -26,6 +27,7 @@ const Navbar = (props) => {
                                                 <span onClick={() => navigate(`/`)} className="font-semibold text-xl tracking-tight hover:cursor-pointer">
                                                         <h2 className='title-nav hover:underline p-1'>Leandro Martínez</h2>
                                                 </span>
+                                                <LanguageSwitcher />
                                         </div>
 
                                         <div className="block sm:hidden">

@@ -1,7 +1,10 @@
 import Typewriter from 'typewriter-effect';
 import DownloadCv from '../DownloadCvButton/DownloadCv';
+import { useTranslation } from 'react-i18next';
 
 const Profile = () => {
+
+    const { t } = useTranslation('translation');
 
     return (
         <section className='flex flex-col mt-12 sm:mt-20 max-w-4xl mx-auto' data-aos="fade-left"
@@ -9,7 +12,7 @@ const Profile = () => {
             data-aos-offset="500"
             data-aos-duration="500">
             <div className='text-left max-w-xl md:max-w-4xl flex'>
-                <h3 className='my-2 text-4xl md:text-7xl'>Hola! Mi nombre es <span className='text-violet-400'>Leandro Martínez.</span></h3></div>
+                <h3 className='my-2 text-4xl md:text-7xl'>{t("welcome-name")} <span className='text-violet-400'>Leandro Martínez.</span></h3></div>
             <div className='max-w-lg h-16 sm:min-h-32 md:max-w-4xl text-left text-white typewriterh1'>
                 <Typewriter
                     options={{
