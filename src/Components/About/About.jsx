@@ -8,7 +8,7 @@ const About = () => {
             data-aos-offset="500"
             data-aos-duration="500"
             id="infoSection"
-            className='flex flex-col mt-12 md:mt-24 max-w-xs sm:max-w-2xl lg:max-w-6xl mx-auto'>
+            className='flex flex-col mt-12 md:mt-24 max-w-xs sm:max-w-2xl lg:max-w-6xl'>
             <div
                 className='my-2'>
                 <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">
@@ -16,31 +16,35 @@ const About = () => {
                 </h1>
             </div>
             <div
-                className="flex flex-wrap text-left my-6 gap-6"
+                className="flex flex-wrap text-left my-6 gap-x-6 gap-y-2"
             >
-                <div className="max-w-sm ">
-                    <p className="py-4" >A fines de 2022 inicié mi camino en la programación, ya que me atraía el poder resolver problemas creando aplicaciones web.</p>
+                <div className="max-w-sm   p-2 border-gray-300">
+                    <h4 className="font-semibold text-xl">Inicios</h4>
+                    <p className="py-4" >A finales de 2022, comencé mi camino en la programación atraído por el desafío de resolver problemas y crear aplicaciones web. Desde entonces, he enfocado mis esfuerzos en desarrollar habilidades prácticas y una mentalidad orientada al aprendizaje constante.</p>
                 </div>
-                <div className="max-w-sm ">
-                    <p className="py-4" >Comencé mi estudio en BIOS Uruguay, adentrandome con el curso de Fundamentos de la programación y siguiendo con Programación Java.</p>
+                <div className="max-w-sm  p-2 border-gray-300">
+                    <h4 className="font-semibold text-xl">Bios</h4>
+                    <p className="py-4" >Comencé mis estudios realizando cursos como Fundamentos de la programación y Programación Java. Aquí aprendí las bases de la programación y comencé a construir aplicaciones J2SE en capas, con acceso a bases de datos MySQL mediante JDBC e interfaces gráficas con Swing.</p>
                 </div>
-                <div className=" max-w-sm ">
-                    <p className="py-4" >Continué mi trayectoria en Coderhouse, me inscribí en la Carrera de Desarrollador Web Full Stack.</p>
+                <div className=" max-w-sm border-t-2  p-2 border-gray-300">
+                    <h4 className="font-semibold text-xl">Coderhouse</h4>
+                    <p className="py-4" >Coderhouse, continué mis estudios y realicé la Carrera de Desarrollador Web Full Stack. Culminé con éxito esta formación, enfrentando desafíos constantes que reforzaron mis habilidades técnicas y mi capacidad de resolución de problemas.</p>
                 </div>
-                <div className="max-w-sm ">
-                    <p className="py-4" >Luego de 1 año de mucho aprendizaje y crecimiento, culminé los estudios, donde constantemente me puse a prueba con los desafios que me tocaban realizar.</p>
+                <div className="max-w-sm border-t-2  p-2 border-gray-300">
+                    <h4 className="font-semibold text-xl">Udemy</h4>
+                    <p className="py-4" >Udemy, me encuentro realizando el curso de React + Typescript una poderosa combinación para el desarrollo moderno de interfaces de usuario.</p>
                 </div>
-                <div className="max-w-sm ">
-                    <p className="py-4" >Para seguir nutriendome me encuentro estudiando en Udemy, cursando React + Typescript. Sigo prácticando y conociendo este lenguaje en mi biblioteca favorita. </p>
+                <div className="max-w-sm border-t-2  p-2 border-gray-300">
+                    <h4 className="font-semibold text-xl">Idiomas</h4>
+                    <p className="py-4" >Me encuentro cursando Inglés, Nivel B2 y preparación de First Certificate. En constante mejora para leer documentación técnica y colaborar internacionalmente.</p>
                 </div>
-                <div className="max-w-sm ">
-                    <p className="py-4" >También me encuentro estudiando inglés, ya que lo considero muy importante para leer documentación y conectar con gente que hable este idioma. De momento estoy en nivel B2.</p>
+                <div className="max-w-sm border-t-2  p-2 border-gray-300">
+                    <h4 className="font-semibold text-xl">Objetivo 2025</h4>
+                    <p className="py-4" >Conseguir mi primer empleo como desarrollador frontend, aportando valor con mis habilidades técnicas y actitud proactiva.</p>
                 </div>
-                <div className="max-w-sm ">
-                    <p className="py-4" >Me motiva seguir aprendiendo, continuar con la creación de proyectos personales y profesionales, que aporten a mi carrera.</p>
-                </div>
-                <div className="max-w-sm ">
-                    <p className="py-4" >Actualmente sigo en constante aprendizaje para estar actualizado. Este año pretendo cumplir mi objetivo principal que es adentrarme en el rubro y obtener mi primer trabajo como Desarrollador.</p>
+                <div className="max-w-sm border-t-2  p-2 border-gray-300">
+                    <h4 className="font-semibold text-xl">Visión</h4>
+                    <p className="py-4" >Estoy motivado por el aprendizaje continuo y la posibilidad de contribuir a proyectos desafiantes que impacten de manera positiva. Mi meta es destacar en el mundo del desarrollo web y estar preparado para adaptarme a las tecnologías emergentes del futuro.</p>
                 </div>
             </div>
         </div>

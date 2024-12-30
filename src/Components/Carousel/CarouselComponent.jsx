@@ -128,11 +128,6 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                     )
                     )}
                 </div>
-
-
-                {/* <p className='bg-black/20 text-white rounded-sm text-left p-1'>
-                    {technologies}
-                </p> */}
                 <div className="flex w-full">
                     <a href={weblink} className="border-violet-800 bg-violet-800 hover:bg-violet-900 duration-300 transition-colors border-2 px-2 text-md align-middle items-center flex justify-center w-full sm:w-48 overflow-hidden rounded-lg shadow hover:cursor-pointer" target="_blank">VISITAR WEB
                     </a>
@@ -144,6 +139,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                     </a>
                 </div>
             </div>
+            <hr className='my-4' />
         </article>
     )
 }

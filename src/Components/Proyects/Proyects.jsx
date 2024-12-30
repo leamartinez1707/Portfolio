@@ -81,25 +81,11 @@ const Proyects = () => {
                         alt2='Segunda imagen del proyecto número seis'
                         alt3='Tercera imagen del proyecto número seis'
                         title='Cripto Status'
-                        description='Proyecto de una aplicación web, donde se simula un sitio de criptomonedas, con la posibilidad de ver el precio de las mismas en tiempo real. La idea de este proyecto fue seguir practicando con React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño, Zod para la validación de datos y Zustand para el manejo de estados.'
+                        description='Información sobre criptomonedas en tiempo real, conectado a CryptoCompare API. La idea de este proyecto fue seguir practicando con React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño, Zod para la validación de datos y Zustand para el manejo de estados.'
                         technologies={['#REACT', '#TYPESCRIPT', '#ZOD', '#ZUSTAND', '#TAILWIND']}
                         weblink='https://criptomoneda-divisas.netlify.app/'
                         github='https://github.com/leamartinez1707/cripto-status'
                     />
-
-                    {/* <CarouselComponent
-                        img1='/proyects/proyect7_1.png'
-                        img3='/proyects/proyect7_2.png'
-                        img2='/proyects/proyect7_3.png'
-                        alt1='Primera imagen del proyecto número cuatro'
-                        alt2='Segunda imagen del proyecto número cuatro'
-                        alt3='Tercera imagen del proyecto número cuatro'
-                        title='Consulta del clima'
-                        description='Prueba técnica para entevista. Creación de una aplicación de tareas, incluyendo un sistema de autenticación, donde cada usuario puede crear, editar, eliminar y marcar como completada una tarea. Se utilizó NestJS para el Backend y Prisma para conectarlo con la base de datos. React para el Frontend y MySQL para la base de datos. Estilizado con Tailwind y Css. El proyecto utiliza Turborepo para unificar los paquetes de Frontend y Backend y ejecutar ambos desde una misma terminal.'
-                        technologies={['#NEST', '#JWT', '#REACT', '#MYSQL', '#PRISMA', '#CSS', '#TAILWIND']}
-                        weblink='https://backend-47290.onrender.com/'
-                        github='https://github.com/leamartinez1707/backend-47290'
-                    /> */}
                     <CarouselComponent
                         img1='/proyects/proyect3_1.webp'
                         img2='/proyects/proyect3_2.webp'
@@ -108,10 +94,10 @@ const Proyects = () => {
                         al2="Segunda imagen del proyecto número dos"
                         alt3="Tercera imagen del proyecto número dos"
                         title='Mi Restaurante'
-                        description='Proyecto de una aplicación web, donde se simula un restaurante y el empleado puede trabajar con la carta, agregando productos a la lista, y la propina dejada por su cliente, para luego sumar el total y enviar el ticket.
-                        La idea de este proyecto continuar con la práctica de React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño.
-                        Se le sumaran funciones con el tiempo para seguir desarrollando la App.'
-                        technologies={['#VITE', '#REACT', '#TAILWIND', '#JWT']}
+                        description='Simula la gestión de un restaurante. El empleado puede interactuar con la carta, añadir productos a la lista de pedidos, calcular la propina del cliente y generar el total para emitir un ticket.
+Este proyecto tiene como objetivo reforzar mis habilidades en React y profundizar en los conceptos básicos de TypeScript. Además, TailwindCSS se utilizó para crear un diseño limpio y responsivo.
+Planeo ampliar sus funcionalidades en el futuro para seguir desarrollando y mejorando esta aplicación, explorando nuevas tecnologías y casos de uso.'
+                        technologies={['#VITE', '#REACT', '#TAILWIND', '#JWT', '#NOTISTACK', '#HEADLESSUI', '#TYPESCRIPT']}
                         weblink='https://mirestauranteuy.netlify.app/'
                         github='https://github.com/leamartinez1707/mirestaurante'
                     />
