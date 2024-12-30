@@ -40,7 +40,7 @@ export const HardSkills = () => {
                         title='TypeScript'
                         image='https://skillicons.dev/icons?i=typescript'
                         alt='TypeScript icon'
-                        link='https://developer.mozilla.org/es/docs/Web/JavaScript'
+                        link='https://www.typescriptlang.org/'
                         animate='fade-up'
                     />
                     <HabilitiesCard
@@ -84,18 +84,18 @@ export const HardSkills = () => {
                         animate='fade-down'
                     />
                     <HabilitiesCard
+                        title='TypeScript'
+                        image='https://skillicons.dev/icons?i=typescript'
+                        alt='TypeScript icon'
+                        link='https://www.typescriptlang.org/'
+                        animate='fade-up'
+                    />
+                    <HabilitiesCard
                         title='Nest.js'
                         image='https://skillicons.dev/icons?i=nestjs'
                         alt='Nest icon'
                         link='https://nestjs.com/'
                         animate='fade-up'
-                    />
-                    <HabilitiesCard
-                        title='Vite'
-                        image='https://skillicons.dev/icons?i=vite'
-                        alt='React icon'
-                        link='https://vitejs.dev/'
-                        animate='fade-down'
                     />
                     <HabilitiesCard
                         title='Express'
@@ -113,24 +113,10 @@ export const HardSkills = () => {
                 {/* habilities-icons */}
                 <div className="my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
                     <HabilitiesCard
-                        title='MongoDB'
-                        image='https://skillicons.dev/icons?i=mongodb'
-                        alt='MongoDB icon'
-                        link='https://www.mongodb.com/es'
-                        animate='fade-down'
-                    />
-                    <HabilitiesCard
-                        title='AWS'
-                        image='https://skillicons.dev/icons?i=aws'
-                        alt='Amazon web services icon'
-                        link='https://aws.amazon.com/es/'
-                        animate='fade-up'
-                    />
-                    <HabilitiesCard
-                        title='Firebase'
-                        image='https://skillicons.dev/icons?i=firebase'
-                        alt='Firebase icon'
-                        link='https://firebase.google.com/?hl=es'
+                        title='Vite'
+                        image='https://skillicons.dev/icons?i=vite'
+                        alt='React icon'
+                        link='https://vitejs.dev/'
                         animate='fade-down'
                     />
                     <HabilitiesCard
@@ -145,6 +131,34 @@ export const HardSkills = () => {
                         image='https://skillicons.dev/icons?i=github'
                         alt='Github icon'
                         link='https://github.com/'
+                        animate='fade-down'
+                    />
+                    <HabilitiesCard
+                        title='MongoDB'
+                        image='https://skillicons.dev/icons?i=mongodb'
+                        alt='MongoDB icon'
+                        link='https://www.mongodb.com/es'
+                        animate='fade-down'
+                    />
+                    <HabilitiesCard
+                        title='AWS'
+                        image='https://skillicons.dev/icons?i=aws'
+                        alt='Amazon web services icon'
+                        link='https://aws.amazon.com/es/'
+                        animate='fade-up'
+                    />
+                    <HabilitiesCard
+                        title='MySQL'
+                        image='https://skillicons.dev/icons?i=mysql'
+                        alt='MySQL icon'
+                        link='https://www.mysql.com/'
+                        animate='fade-up'
+                    />
+                    <HabilitiesCard
+                        title='Firebase'
+                        image='https://skillicons.dev/icons?i=firebase'
+                        alt='Firebase icon'
+                        link='https://firebase.google.com/?hl=es'
                         animate='fade-down'
                     />
                     <HabilitiesCard

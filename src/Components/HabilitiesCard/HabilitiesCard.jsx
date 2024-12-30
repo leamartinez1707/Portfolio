@@ -9,7 +9,7 @@ export const HabilitiesCard = ({ image, alt, link, title, animate }) => {
             <img
                 className="icon-habilities py-2 hover:cursor-pointer mx-auto" src={image} alt={alt} />
             <h6>
-                <a href={link} target="_blank">{title}</a>
+                <a className="hover:text-violet-500" href={link} target="_blank">{title}</a>
             </h6>
         </div>
     )

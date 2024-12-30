@@ -11,10 +11,10 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
         setImage(img)
     }
     return (
-        <article>
+        <article className='mb-4'>
             <div
                 className="flex flex-col md:flex-row max-w-4xl mx-auto rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] justify-between rounded-t-xl">
-                <div className="relative overflow-hidden size-full max-h-96 my-auto mx-auto">
+                <div className="relative overflow-hidden size-full max-h-full my-auto mx-auto rounded-t-xl align-middle items-center flex justify-center">
                     <Carousel
                         className=""
                         prevArrow={({ handlePrev }) => (
@@ -31,7 +31,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                                     viewBox="0 0 24 24"
                                     strokeWidth={2}
                                     stroke="currentColor"
-                                    className="size-8 text-black md:text-white"
+                                    className="size-8 text-black"
                                 >
                                     <path d="M15 6l-6 6l6 6" />
                                 </svg>
@@ -51,7 +51,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                                     viewBox="0 0 24 24"
                                     strokeWidth={2}
                                     stroke="currentColor"
-                                    className="size-8 text-black md:text-white"
+                                    className="size-8 text-black"
                                 >
                                     <path d="M9 6l6 6l-6 6" />
                                 </svg>
