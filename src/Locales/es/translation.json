@@ -1,5 +1,81 @@
 {
   "welcome-name": "Hola! Mi nombre es",
+  "stack-frontend": "Desarrollador Frontend",
+  "stack-fullstack": "Desarrollador Full Stack",
+  "welcome-first-description": "Bienvenida/o a mi portafolio! Soy un desarrollador web frontend con una sólida base en React, TypeScript y diseño responsivo.",
+  "welcome-second-description": "Experiencia en el desarrollo backend con Node.js, Express y NestJS.",
+  "welcome-third-description": " Mi enfoque está en crear aplicaciones intuitivas y escalables.",
+  "able-to-work": "Disponible para trabajar",
+  "download-cv": "Descargar CV",
+  "select-language": "Seleccionar Idioma",
+  "language-english": "Inglés",
+  "language-spanish": "Español",
+  "confirm-download": "Confirmar descarga",
+  "hard-skills": "Habilidades Técnicas",
+  "soft-skills": "Habilidades Blandas",
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "others": "Otras",
+  "adaptability": "Adaptabilidad",
+  "communication": "Comunicación",
+  "creative": "Creatividad",
+  "time-management": "Gestión del Tiempo",
+  "initiative": "Iniciativa",
+  "organization": "Organización",
+  "critical-thinking": "Pensamiento Crítico",
+  "problem-solving": "Resolución de Problemas",
+  "responsability": "Responsabilidad",
+  "teamwork": "Trabajo en Equipo",
+  "projects": "Proyectos",
+
+  "saludnet-title": "SaludNet | Plataforma de Salud",
+  "saludnet-description": "SaludNet es una plataforma digital de telemedicina diseñada para simplificar y optimizar el acceso a servicios de salud. Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios.",
+
+  "uptask-title": "Uptask | Administrador de Proyectos",
+  "uptask-description": "'Aplicación de tareas, incluyendo un sistema de autenticación. Se utilizó Express para el Backend y Mongoose para conectarlo con la base de datos MongoDB. React para el Frontend y fue estilizado con Tailwind, Chakra, Headlessui y se implemenentó Drag and drop con DND Kit. El proyecto utiliza TypeScript en ambos stacks y React Query para el manejo de datos.",
+
+  "ecommerce-frontend-title": "Ecommerce | Frontend",
+  "ecommerce-frontend-description": "En nuestro proyecto final de React en Coderhouse, creamos un E-commerce donde la consigna era poder comprar los productos seleccionados. Contando con un carrito y un formulario de compra. Alojando los datos en Firebase.Aprendiendo así las bases de esta biblioteca.",
+
+  "cryptostatus-title": "CryptoStatus | Cotizador de Criptomonedas",
+  "cryptostatus-description": "Información sobre criptomonedas en tiempo real, conectado a CryptoCompare API. La idea de este proyecto fue seguir practicando con React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño, Zod para la validación de datos y Zustand para el manejo de estados.",
+
+  "myrestaurant-title": "Mi Restaurante",
+  "myrestaurant-description": "Simula la gestión de un restaurante. El empleado puede interactuar con la carta, añadir productos a la lista de pedidos, calcular la propina del cliente y generar el total para emitir un ticket. Este proyecto tiene como objetivo reforzar mis habilidades en React y profundizar en los conceptos básicos de TypeScript. Además, TailwindCSS se utilizó para crear un diseño limpio y responsivo. Planeo ampliar sus funcionalidades en el futuro para seguir desarrollando y mejorando esta aplicación, explorando nuevas tecnologías y casos de uso.",
+
+  "ecommerce-fullstack-title": "Ecommerce | Full Stack",
+  "ecommerce-fullstack-description": "Proyecto final del curso Programación Backend, Coderhouse. Creamos una API REST funcional, utilizando vistas con Handlebars.js. Permitiendo a los usuarios poder realizar compras, con pasarela de pago STRIPE. El usuario ADMIN puede realizar CRUD de productos y editar o eliminar usuarios. Documentación de la API con Swagger.",
+
+  "visit-website": "web",
   "about": "Sobre Mí",
-  "projects": "Proyectos"
+  "about-beginning": "Inicios",
+  "about-beginning-description": "A finales de 2022, comencé mi camino en la programación atraído por el desafío de resolver problemas y crear aplicaciones web. Desde entonces, he enfocado mis esfuerzos en desarrollar habilidades prácticas y una mentalidad orientada al aprendizaje constante.",
+
+  "about-bios": "Bios",
+  "about-bios-description": "Comencé mis estudios realizando cursos como Fundamentos de la programación y Programación Java. Aquí aprendí las bases de la programación y comencé a construir aplicaciones J2SE en capas, con acceso a bases de datos MySQL mediante JDBC e interfaces gráficas con Swing.",
+
+  "about-coderhouse": "Coderhouse",
+  "about-coderhouse-description": "Continué mis estudios y realicé la Carrera de Desarrollador Web Full Stack. Culminé con éxito esta formación, enfrentando desafíos constantes que reforzaron mis habilidades técnicas y mi capacidad de resolución de problemas.",
+
+  "about-udemy": "Udemy",
+  "about-udemy-description": "Udemy, me encuentro realizando el curso de React + Typescript una poderosa combinación para el desarrollo moderno de interfaces de usuario.",
+
+  "about-language": "Idiomas",
+  "about-language-description": "Me encuentro cursando Inglés, Nivel B2 y preparación de First Certificate. En constante mejora para leer documentación técnica y colaborar internacionalmente.",
+
+  "about-objetives": "Objetivos 2025",
+  "about-objetives-description": "Conseguir mi primer empleo como desarrollador frontend, aportando valor con mis habilidades técnicas y actitud proactiva.",
+
+  "about-vision": "Visión",
+  "about-vision-description": "Estoy motivado por el aprendizaje continuo y la posibilidad de contribuir a proyectos desafiantes que impacten de manera positiva. Mi meta es destacar en el mundo del desarrollo web y estar preparado para adaptarme a las tecnologías emergentes del futuro.",
+
+  "contact": "Contacto",
+  "contact-letstalk": "Hablemos",
+  "contact-interested": "Estás interesado/a en contactarte conmigo?",
+  "contact-interested-send": "Envíame un mensaje por mail o en cualquiera de mis redes sociales!",
+  "contact-send": "Enviar un mensaje",
+  "contact-socialmedia": "Redes Sociales",
+  "contact-phone": "Teléfono",
+
+  "footer-developedby": " Desarrollada y diseñada por"
 }

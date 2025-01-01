@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const Profile = () => {
 
-    const { t } = useTranslation('translation');
+    const { t } = useTranslation();
 
     return (
         <section className='flex flex-col mt-12 sm:mt-20 max-w-4xl mx-auto' data-aos="fade-left"
@@ -17,7 +17,7 @@ const Profile = () => {
                 <Typewriter
                     options={{
                         wrapperClassName: 'my-2 text-4xl sm:text-7xl anta-regular',
-                        strings: ['Desarrollador Full Stack'],
+                        strings: [`${t('stack-frontend')}`, `${t('stack-fullstack')}`],
                         autoStart: true,
                         loop: true,
                     }}
@@ -26,16 +26,16 @@ const Profile = () => {
             <div
                 className="w-full mt-2 text-gray-light">
                 <p className='my-2 text-left text-lg md:text-2xl tracking-wide'>
-                    Bienvenida/o a mi portafolio! Soy un desarrollador web frontend con una sólida base en React, TypeScript y diseño responsivo.
+                    {t("welcome-first-description")}
                     <br />
-                    Experiencia en el desarrollo backend con Node.js y Express. <br />
-                    Mi enfoque está en crear aplicaciones intuitivas y escalables.
+                    {t("welcome-second-description")} <br />
+                    {t("welcome-third-description")}
 
                 </p>
             </div>
 
             <span className="animate animate-bounce inline-flex items-center size-fit py-1 px-2 justify-center my-2 text-sm text-gray-900 bg-green-100 rounded-sm backdrop-blur-3xl whitespace-nowrap ">
-                Disponible para trabajar
+                {t("able-to-work")}
             </span>
 
 

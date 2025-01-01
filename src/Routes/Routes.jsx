@@ -9,15 +9,15 @@ const RoutesNav = () => {
     const navbar_items = [
         {
             path: "#infoSection",
-            name: "/Sobre mi"
+            name: "about"
         },
         {
             path: "#proyectsSection",
-            name: "/Proyectos"
+            name: "projects"
         },
         {
             path: "#contactSection",
-            name: "/Contacto"
+            name: "contact"
         }
 
     ]

@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next"
+
 const Contact = () => {
+
+    const {t} = useTranslation()
     return (
         <section
             data-aos="fade-right"
@@ -8,13 +12,13 @@ const Contact = () => {
             id="contactSection"
             className='mx-auto max-w-4xl my-2 mt-12 md:mt-24'>
             <div className="title">
-                <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">Contacto</h1>
+                <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">{t('contact')}</h1>
             </div>
             <div className="grid sm:grid-cols-1 max-w-full sm:max-w-lg items-center gap-4 sm:py-8 my-6 contact-info text-left">
-                <h2 className="text-3xl font-extrabold">Hablemos!</h2>
-                <p className="text-md text-gray-50 mt-3">Estás interesado/a en contactarte conmigo? <br /> Envíame un mensaje por mail o en cualquiera de mis redes sociales!</p>
+                <h2 className="text-3xl font-extrabold">{t('contact-letstalk')}</h2>
+                <p className="text-md text-gray-50 mt-3">{t('contact-interested')}<br /> {t('contact-interested-send')}</p>
                 <div className="mt-6">
-                    <h3 className="text-lg font-extrabold">Envíar un mensaje</h3>
+                    <h3 className="text-lg font-extrabold">{t('contact-send')}</h3>
                     <ul className="mt-3">
                         <li className="flex items-center">
                             <a target="blank" href="mailto:leandromartinez.dev@gmail.com">
@@ -26,7 +30,7 @@ const Contact = () => {
                     </ul>
                 </div>
                 <div className="mt-6">
-                    <h3 className="text-lg font-extrabold">Redes sociales</h3>
+                    <h3 className="text-lg font-extrabold">{t('contact-socialmedia')}</h3>
                     <ul className="flex mt-3 space-x-4">
                         <li className="size-8 rounded-full flex items-center justify-center shrink-0">
                             <a href="https://www.linkedin.com/in/leandromartinezuy/" target="_blank">
@@ -41,7 +45,7 @@ const Contact = () => {
                     </ul>
                 </div>
                 <div className="mt-6">
-                    <h3 className="text-lg font-extrabold">Teléfono</h3>
+                    <h3 className="text-lg font-extrabold">{t('contact-phone')}</h3>
                     <ul className="flex mt-3 space-x-4">
                         <li className="flex items-center">
                             <a className="text-sm text-white hover:underline hover:cursor-pointer" href="https://wa.link/qroge1" target="_blank">

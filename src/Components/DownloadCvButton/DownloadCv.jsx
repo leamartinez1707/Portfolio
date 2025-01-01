@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { Button } from '@material-tailwind/react';
+import { useTranslation } from 'react-i18next';
 
 const DownloadCv = () => {
     const [showSelect, setShowSelect] = useState(false); // Estado para mostrar u ocultar el select
     const [language, setLanguage] = useState(''); // Estado para seleccionar el idioma
+    const { t } = useTranslation();
 
     const handleDownload = () => {
         if (language === 'en') {
@@ -22,20 +24,20 @@ const DownloadCv = () => {
                 variant='outlined' size='small' className="text-white bg-violet-800 hover:bg-violet-800 md:p-2"
                 onClick={() => setShowSelect(!showSelect)} // Mostrar u ocultar el select al hacer clic
             >
-                Descargar CV
+                {t("download-cv")}
             </Button>
 
             {/* Mostrar el select solo si el usuario hizo clic en el botón */}
             {showSelect && (
-                <div className="flex mt-2">
+                <div className="flex mt-2 mx-auto justify-center">
                     <select
                         value={language}
                         onChange={(e) => setLanguage(e.target.value)}
-                        className="p-2 bg-violet-200 rounded-md text-black"
+                        className="p-2 bg-violet-200 rounded-md text-black hover:cursor-pointer"
                     >
-                        <option value="">Seleccionar idioma</option>
-                        <option value="en">Inglés</option>
-                        <option value="es">Español</option>
+                        <option  value="">{t("select-language")}</option>
+                        <option  value="en">{t('language-english')}</option>
+                        <option value="es">{t('language-spanish')}</option>
                     </select>
 
                     {/* Botón de confirmación de descarga */}
@@ -46,7 +48,7 @@ const DownloadCv = () => {
                         onClick={handleDownload}
                         disabled={!language} // Deshabilitar si no se selecciona un idioma
                     >
-                        Confirmar descarga
+                        {t("confirm-download")}
                     </Button>
                 </div>
             )}

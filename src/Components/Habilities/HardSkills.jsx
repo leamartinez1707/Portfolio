@@ -1,6 +1,9 @@
 import { HabilitiesCard } from "../HabilitiesCard/HabilitiesCard"
+import { useTranslation } from "react-i18next"
 
 export const HardSkills = () => {
+    const { t } = useTranslation()
+
     return (
         <div>
             <div className="">
@@ -8,11 +11,11 @@ export const HardSkills = () => {
                     data-aos="fade-right"
                     data-aos-duration="800"
                     // data-aos-easing="ease-in-sine"
-                    className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">Habilidades técnicas</h3>
+                    className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">{t('hard-skills')}</h3>
                 {/* tec-title */}
             </div>
             <div className="flex align-middle items-center">
-                <h4 className="my-6 mx-auto text-xl md:text-4xl anta-regular">Frontend</h4>
+                <h4 className="my-6 mx-auto text-xl md:text-4xl anta-regular">{t('frontend')}</h4>
                 {/* habilities-icons */}
                 <div className="my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
                     <HabilitiesCard
@@ -105,11 +108,11 @@ export const HardSkills = () => {
                         animate='fade-up'
                     />
                 </div >
-                <h6 className="my-6 mx-auto text-xl md:text-4xl anta-regular">Backend</h6>
+                <h6 className="my-6 mx-auto text-xl md:text-4xl anta-regular">{t('backend')}</h6>
             </div>
             <hr />
             <div className="flex align-middle items-center">
-                <h4 className="my-6 mx-auto text-xl md:text-4xl anta-regular">Otras</h4>
+                <h4 className="my-6 mx-auto text-xl md:text-4xl anta-regular">{t('others')}</h4>
                 {/* habilities-icons */}
                 <div className="my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
                     <HabilitiesCard
@@ -175,7 +178,6 @@ export const HardSkills = () => {
                         link='https://jestjs.io/'
                         animate='fade-down'
                     />
-
                 </div >
             </div>
         </div>

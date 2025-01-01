@@ -2,6 +2,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import LanguageSwitcher from '../Language/LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 const Navbar = (props) => {
 
         const { navbar_items } = props
@@ -16,6 +17,7 @@ const Navbar = (props) => {
                 setMobileMenuOpen(false);
         };
 
+        const {t} = useTranslation()
         return (
                 <>
                         <nav
@@ -56,10 +58,12 @@ const Navbar = (props) => {
                                                         {navbar_items.map(({ path, name }, index) => (
                                                                 <li key={index} className="nav-item nav-cat mx-auto sm:mx-0 align-center" onClick={closeMobileMenu}>
                                                                         <a
-                                                                                className="nav-link block sm:hover:underline sm:hover:decoration-4 sm:inline-block lg:mt-0  mr-4"
+                                                                                className="nav-link block sm:hover:underline sm:hover:decoration-4 sm:inline-block lg:mt-0 mr-4"
                                                                                 href={path}
                                                                         >
-                                                                                {name}
+                                                                                {'{'}
+                                                                                <span className='p-1'>{t(name)}</span>
+                                                                                {'}'}
                                                                         </a>
                                                                 </li>
                                                         ))}
