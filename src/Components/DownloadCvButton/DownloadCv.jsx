@@ -21,7 +21,7 @@ const DownloadCv = () => {
         <div className="relative">
             {/* Botón para abrir el select */}
             <Button
-                variant='outlined' size='small' className="text-white bg-violet-800 hover:bg-violet-800 md:p-2"
+                variant='outlined' size='small' className="text-white bg-violet-800 hover:bg-violet-900 transition-color duration-300 md:p-2"
                 onClick={() => setShowSelect(!showSelect)} // Mostrar u ocultar el select al hacer clic
             >
                 {t("download-cv")}
@@ -35,8 +35,8 @@ const DownloadCv = () => {
                         onChange={(e) => setLanguage(e.target.value)}
                         className="p-2 bg-violet-200 rounded-md text-black hover:cursor-pointer"
                     >
-                        <option  value="">{t("select-language")}</option>
-                        <option  value="en">{t('language-english')}</option>
+                        <option value="">{t("select-language")}</option>
+                        <option value="en">{t('language-english')}</option>
                         <option value="es">{t('language-spanish')}</option>
                     </select>
 

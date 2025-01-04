@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, description, technologies, title, weblink, github }) => {
 
-    const {t} = useTranslation()
+    const { t } = useTranslation()
     const [open, setOpen] = useState(false);
     const [image, setImage] = useState(0)
 
@@ -121,15 +121,15 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
 
                 </h4>
                 <p className="text-left text-lg md:text-xl">
-                {t(`${description}`)}
+                    {t(`${description}`)}
                 </p>
                 <div className='flex w-full flex-wrap gap-1'>
                     {technologies?.map((techName, index) => (
                         <>
-                        <div className='bg-gray-100/10 p-1 rounded-sm'>
-                            <p className='text-white font-semibold' key={index}>{t(`${techName}`)}</p>
+                            <div className='bg-violet-300 text-gray-800 text-xs font-medium inline-flex items-center gap-1 px-2.5 rounded-sm mb-2 p-2'>
+                                <p className='' key={index}>{t(`${techName}`)}</p>
 
-                        </div>
+                            </div>
                         </>
                     )
                     )}
@@ -137,7 +137,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                 <div className="flex w-full">
                     <a href={weblink} className="border-violet-800 bg-violet-800 hover:bg-violet-900 duration-300 transition-colors border-2 px-2 text-xl align-middle items-center flex justify-center w-1/2 sm:w-48 overflow-hidden rounded-lg shadow hover:cursor-pointer uppercase " target="_blank">
                         <span className='flex font-semibold'>
-                        {t('visit-website')}
+                            {t('visit-website')}
                         </span>
                     </a>
                     <a

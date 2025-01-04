@@ -158,6 +158,13 @@ export const HardSkills = () => {
                         animate='fade-up'
                     />
                     <HabilitiesCard
+                        title='PostgreSQL'
+                        image='https://skillicons.dev/icons?i=postgresql'
+                        alt='PostgreSQL icon'
+                        link='https://www.postgresql.org/'
+                        animate='fade-up'
+                    />
+                    <HabilitiesCard
                         title='Firebase'
                         image='https://skillicons.dev/icons?i=firebase'
                         alt='Firebase icon'
@@ -176,6 +183,13 @@ export const HardSkills = () => {
                         image='https://skillicons.dev/icons?i=jest'
                         alt='Jest icon'
                         link='https://jestjs.io/'
+                        animate='fade-down'
+                    />
+                    <HabilitiesCard
+                        title='Sequelize'
+                        image='https://skillicons.dev/icons?i=sequelize'
+                        alt='Sequelize icon'
+                        link='https://sequelize.org/'
                         animate='fade-down'
                     />
                 </div >
