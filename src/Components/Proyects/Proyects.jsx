@@ -95,7 +95,7 @@ const Proyects = () => {
                         description='uptask-description'
                         descriptionInfo='uptask-description-info'
                         technologies={['TYPESCRIPT', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'REACT QUERY', 'TAILWIND']}
-                        weblink='https://mytasks-phi.vercel.app/'
+                        weblink='https://uptask-projectmanagement-phi.vercel.app/'
                         github='https://github.com/leamartinez1707/mytasks-frontend'
                         handleOpenModal={handleOpenModal}
                         handleCloseModal={handleCloseModal}
