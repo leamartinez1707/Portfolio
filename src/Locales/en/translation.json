@@ -10,7 +10,7 @@
     "select-language": "Select Language",
     "language-english": "English",
     "language-spanish": "Spanish",
-    "confirm-download": "Confirm download",
+    "confirm-download": "Confirm",
     "hard-skills": "Technical Skills",
     "soft-skills": "Soft Skills",
     "frontend": "Frontend",
@@ -46,7 +46,7 @@
     "ecommerce-fullstack-title": "Ecommerce | Full Stack",
     "ecommerce-fullstack-description": "Final project of the Backend Programming course, Coderhouse. We created a functional REST API, using views with Handlebars.js. Allowing users to make purchases, with STRIPE payment gateway. The ADMIN user can perform CRUD operations on products and edit or delete users. API documentation with Swagger.",
   
-    "visit-website": "Visit Website",
+    "visit-website": "Visit",
     "about": "About Me",
     "about-beginning": "Beginnings",
     "about-beginning-description": "At the end of 2022, I started my journey in programming attracted by the challenge of solving problems and creating web applications. Since then, I have focused my efforts on developing practical skills and a mindset oriented towards continuous learning.",

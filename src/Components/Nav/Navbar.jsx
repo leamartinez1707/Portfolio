@@ -17,7 +17,7 @@ const Navbar = (props) => {
                 setMobileMenuOpen(false);
         };
 
-        const {t} = useTranslation()
+        const { t } = useTranslation()
         return (
                 <>
                         <nav
@@ -34,7 +34,7 @@ const Navbar = (props) => {
 
                                         <div className="block sm:hidden">
                                                 <button
-                                                        className="flex items-center px-3 py-2 border rounded burger-menu"
+                                                        className="flex items-center px-3 py-2 border rounded burger-menu hover:bg-white/20 transition-color duration-200"
                                                         onClick={toggleMobileMenu}
                                                 >
                                                         {isMobileMenuOpen === false ? <svg className="fill-current size-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -54,15 +54,15 @@ const Navbar = (props) => {
                                                 } sm:block flex-grow sm:items-center sm:w-auto mt-8`}
                                 >
                                         <div className="text-sm sm:flex-grow">
-                                                <ul className="flex mx-auto justify-center align-middle items-center sm:gap-8 sm:justify-end md:flex-row gap-2">
+                                                <ul className="flex mx-auto justify-center align-middle items-center sm:gap-8 sm:justify-end md:flex-row gap-4">
                                                         {navbar_items.map(({ path, name }, index) => (
-                                                                <li key={index} className="nav-item nav-cat mx-auto sm:mx-0 align-center" onClick={closeMobileMenu}>
+                                                                <li key={index} className="nav-item nav-cat mx-auto sm:mx-0 align-center hover:text-titles" onClick={closeMobileMenu}>
                                                                         <a
-                                                                                className="nav-link block sm:hover:underline sm:hover:decoration-4 sm:inline-block lg:mt-0 mr-4"
+                                                                                className="nav-link block sm:hover:decoration-4 sm:inline-block lg:mt-0 text-lg"
                                                                                 href={path}
                                                                         >
                                                                                 {'{'}
-                                                                                <span className='p-1'>{t(name)}</span>
+                                                                                <span className='p-2 '>{t(name)}</span>
                                                                                 {'}'}
                                                                         </a>
                                                                 </li>
