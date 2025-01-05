@@ -11,14 +11,12 @@ Web intuitiva con diseño responsivo para mostrar información personal y de con
 
 ## Screenshots
 
-<div align=center>
-  
-![App Screenshot](public/assets/capturaweb.png)
-
-
-![App Screenshot](public/assets/capturawebphone.png)
-
+<div align="center">
+  <img src="public/assets/screenshotweb.png" alt="Captura de pantalla de la web" style="max-width: 100%; width: 600px;">
+  <img src="public/assets/screenshottable.png" alt="Captura de pantalla de la tableta" style="max-width: 100%; width: 300px;">
+  <img src="public/assets/screenshotphone.png" alt="Captura de pantalla del teléfono" style="max-width: 100%; width: 200px;">
 </div>
+
 
 
 ## Features
