@@ -17,10 +17,17 @@ const ProjectModal = ({ openModal, setOpenModal, setCloseModal, modalObject }) =
             <Button onClick={setOpenModal} variant="gradient">
                 Open Dialog
             </Button>
-            <Dialog className="bg-white" open={openModal} handler={setOpenModal}>
-                <DialogHeader><p className="text-black">{t(`${modalObject?.title}`)}</p></DialogHeader>
-                <DialogBody>
-                    <p className="text-black">{t(`${modalObject?.descriptionInfo}`)}</p>
+            <Dialog className="bg-gray-700/90 text-white" open={openModal} handler={setOpenModal}>
+                <DialogHeader><p className="border-b-2 border-gray-500 text-2xl font-bold w-full">
+                    {modalObject?.title ? t(`${modalObject?.title}`) :
+                        <p className="">No hay datos, recargue el modal nuevamente</p>
+                    }
+                </p></DialogHeader>
+                <DialogBody className="text-lg"
+                >
+                    {modalObject?.descriptionInfo ? t(`${modalObject?.descriptionInfo}`) :
+                        <p className="">Sin datos</p>
+                    }
                 </DialogBody>
                 <DialogFooter>
                     <Button

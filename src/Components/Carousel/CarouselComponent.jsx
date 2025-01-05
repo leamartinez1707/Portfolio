@@ -127,12 +127,12 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                     </p>
                     <div className='flex w-full flex-wrap gap-1'>
                         {technologies?.map((techName, index) => (
-                            <>
-                                <div className='bg-violet-300 text-gray-800 text-xs font-medium inline-flex items-center gap-1 px-2.5 rounded-sm mb-2 p-2'>
-                                    <p className='' key={index}>{t(`${techName}`)}</p>
+                            <div
+                                key={index}
+                                className='bg-violet-300 text-gray-800 text-xs font-medium inline-flex items-center gap-1 px-2.5 rounded-sm mb-2 p-2'>
+                                <p>{t(`${techName}`)}</p>
 
-                                </div>
-                            </>
+                            </div>
                         )
                         )}
                     </div>
