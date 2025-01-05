@@ -13,7 +13,7 @@ const Profile = () => {
             data-aos-duration="500">
             <div className='text-left max-w-xl md:max-w-4xl flex'>
                 <h3 className='my-2 text-4xl md:text-7xl'>{t("welcome-name")} <span className='text-violet-400'>Leandro Martínez.</span></h3></div>
-            <div className='max-w-lg h-16 sm:min-h-32 md:max-w-4xl text-left text-white typewriterh1'>
+            <div className='max-w-lg h-16 sm:min-h-32 md:max-w-4xl text-left text-white typewriterh1 mb-4 sm:mb-2'>
                 <Typewriter
                     options={{
                         wrapperClassName: 'my-2 text-4xl sm:text-7xl anta-regular',
