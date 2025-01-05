@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"
 
 const About = () => {
-    const {t} =  useTranslation()
+    const { t } = useTranslation()
 
     return (
         <div
@@ -14,7 +14,7 @@ const About = () => {
             <div
                 className='my-2'>
                 <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">
-                {t('about')}
+                    {t('about')}
                 </h1>
             </div>
             <div
@@ -42,7 +42,8 @@ const About = () => {
                 </div>
                 <div className="max-w-sm border-t-2  p-2 border-gray-300">
                     <h4 className="font-semibold text-xl">{t('about-objetives')}</h4>
-                    <p className="py-4" >{t('about-objetives-description')}</p>
+                    <p className="pt-4" >{t('about-objetives-description')}</p>
+                    <p className="pb-4">{t('about-objetives-description2')}</p>
                 </div>
                 <div className="max-w-sm border-t-2  p-2 border-gray-300">
                     <h4 className="font-semibold text-xl">{t('about-vision')}</h4>
