@@ -14,9 +14,6 @@ const ProjectModal = ({ openModal, setOpenModal, setCloseModal, modalObject }) =
     const { t } = useTranslation();
     return (
         <>
-            <Button onClick={setOpenModal} variant="gradient">
-                Open Dialog
-            </Button>
             <Dialog className="bg-gray-700/90 text-white" open={openModal} handler={setOpenModal}>
                 <DialogHeader><p className="border-b-2 border-gray-500 text-2xl font-bold w-full">
                     {modalObject?.title ? t(`${modalObject?.title}`) :
