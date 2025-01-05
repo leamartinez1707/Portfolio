@@ -21,7 +21,7 @@ const DownloadCv = () => {
         <div className="relative">
             {/* Botón para abrir el select */}
             <Button
-                variant='outlined' size='small' className="text-white bg-violet-800 hover:bg-violet-900 transition-color duration-300 md:p-2"
+                variant='outlined' size='lg' className="text-white w-1/2 sm:w-1/4 h-full bg-violet-800 hover:bg-violet-900 transition-color duration-300 py-4 md:px-2"
                 onClick={() => setShowSelect(!showSelect)} // Mostrar u ocultar el select al hacer clic
             >
                 {t("download-cv")}

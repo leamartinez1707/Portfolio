@@ -1,11 +1,37 @@
 import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
 import { CarouselComponent } from '../Carousel/CarouselComponent'
+import ProjectModal from '../ProjectModal/ProjectModal'
 import './proyects.css'
 
 
 const Proyects = () => {
 
-    const {t} = useTranslation()
+    const [openModal, setOpenModal] = useState(false);
+    const [modalObject, setModalObject] = useState({
+        title: '',
+        description: '',
+        descriptionInfo: ''
+    })
+
+    const handleOpenModal = (title, description, descriptionInfo) => {
+        setOpenModal(true)
+        setModalObject({
+            title: title,
+            description: description,
+            descriptionInfo: descriptionInfo
+        })
+    }
+    const handleCloseModal = () => {
+        setOpenModal(false)
+        setModalObject({
+            title: '',
+            description: '',
+            descriptionInfo: ''
+        })
+    }
+
+    const { t } = useTranslation()
 
     return (
         <div
@@ -31,9 +57,14 @@ const Proyects = () => {
                         alt3='Tercera imagen del proyecto número cinco'
                         title='saludnet-title'
                         description='saludnet-description'
+                        descriptionInfo='saludnet-description-info'
                         technologies={['NODE', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'TAILWIND', 'VERCEL']}
                         weblink='https://c20-37-n-node-react.vercel.app/'
                         github='https://github.com/No-Country-simulation/c20-37-n-node-react'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
                     />
                     <CarouselComponent
                         img1='/proyects/proyect2_1.webp'
@@ -44,9 +75,14 @@ const Proyects = () => {
                         alt3='Tercera imagen del proyecto número tres'
                         title='ecommerce-fullstack-title'
                         description='ecommerce-fullstack-description'
+                        descriptionInfo='ecommerce-fullstack-description-info'
                         technologies={['EXPRESS', 'HANDLEBARS', 'TAILWIND', 'MONGODB', 'STRIPE', 'SWAGGER', 'PASSPORTJS', 'MOCHA&CHAI', 'SOCKET.IO']}
                         weblink='https://backend-47290.onrender.com/'
                         github='https://github.com/leamartinez1707/backend-47290'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
                     />
                     <CarouselComponent
                         img1='/proyects/project8_1.webp'
@@ -57,9 +93,14 @@ const Proyects = () => {
                         alt3='Tercera imagen del proyecto número cinco'
                         title='uptask-title'
                         description='uptask-description'
+                        descriptionInfo='uptask-description-info'
                         technologies={['TYPESCRIPT', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'REACT QUERY', 'TAILWIND']}
                         weblink='https://mytasks-phi.vercel.app/'
                         github='https://github.com/leamartinez1707/mytasks-frontend'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
                     />
                     <CarouselComponent
                         img1='/proyects/proyect1_1.webp'
@@ -70,9 +111,14 @@ const Proyects = () => {
                         alt3="Tercera imágen del proyecto número uno"
                         title='ecommerce-frontend-title'
                         description='ecommerce-frontend-description'
+                        descriptionInfo='ecommerce-frontend-description-info'
                         technologies={['HTML', 'CSS', 'JAVSCRIPT', 'REACT', 'FIREBASE']}
                         weblink='https://react-proyect2023.vercel.app/'
                         github='https://github.com/leamartinez1707/reactProyect2023'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
                     />
                     <CarouselComponent
                         img1='/proyects/proyect6_1.png'
@@ -83,9 +129,14 @@ const Proyects = () => {
                         alt3='Tercera imagen del proyecto número seis'
                         title='cryptostatus-title'
                         description='cryptostatus-description'
+                        descriptionInfo='cryptostatus-description-info'
                         technologies={['REACT', 'TYPESCRIPT', 'ZOD', 'ZUSTAND', 'TAILWIND']}
                         weblink='https://criptomoneda-divisas.netlify.app/'
                         github='https://github.com/leamartinez1707/cripto-status'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
                     />
                     <CarouselComponent
                         img1='/proyects/proyect3_1.webp'
@@ -96,12 +147,18 @@ const Proyects = () => {
                         alt3="Tercera imagen del proyecto número dos"
                         title='myrestaurant-title'
                         description='myrestaurant-description'
+                        descriptionInfo='myrestaurant-description-info'
                         technologies={['VITE', 'REACT', 'TAILWIND', 'JWT', 'NOTISTACK', 'HEADLESSUI', 'TYPESCRIPT']}
                         weblink='https://mirestauranteuy.netlify.app/'
                         github='https://github.com/leamartinez1707/mirestaurante'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
                     />
                 </div>
             </div>
+            <ProjectModal openModal={openModal} setOpenModal={handleOpenModal} setCloseModal={handleCloseModal} modalObject={modalObject} />
         </div>
     )
 }

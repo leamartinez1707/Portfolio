@@ -10,7 +10,7 @@
   "select-language": "Seleccionar Idioma",
   "language-english": "Inglés",
   "language-spanish": "Español",
-  "confirm-download": "Confirmar descarga",
+  "confirm-download": "Confirmar",
   "hard-skills": "Habilidades Técnicas",
   "soft-skills": "Habilidades Blandas",
   "frontend": "Frontend",
@@ -29,24 +29,31 @@
   "projects": "Proyectos",
 
   "saludnet-title": "SaludNet | Plataforma de Salud",
-  "saludnet-description": "SaludNet es una plataforma digital de telemedicina diseñada para simplificar y optimizar el acceso a servicios de salud. Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios.",
+  "saludnet-description": "SaludNet es una plataforma digital de telemedicina diseñada para simplificar y optimizar el acceso a servicios de salud.",
+  "saludnet-description-info": "Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios." ,
 
-  "uptask-title": "Uptask | Administrador de Proyectos",
-  "uptask-description": "'Aplicación de tareas, incluyendo un sistema de autenticación. Se utilizó Express para el Backend y Mongoose para conectarlo con la base de datos MongoDB. React para el Frontend y fue estilizado con Tailwind, Chakra, Headlessui y se implemenentó Drag and drop con DND Kit. El proyecto utiliza TypeScript en ambos stacks y React Query para el manejo de datos.",
+  "uptask-title": "Uptask",
+  "uptask-description": "Aplicación para administrar proyectos, cuenta con un sistema de autenticación. ",
+  "uptask-description-info": "Se utilizó Express para el Backend y Mongoose para conectarlo con la base de datos MongoDB. React para el Frontend y fue estilizado con Tailwind, Chakra, Headlessui y se implemenentó Drag and drop con DND Kit. El proyecto utiliza TypeScript en ambos stacks y React Query para el manejo de datos." ,
 
-  "ecommerce-frontend-title": "Ecommerce | Frontend",
-  "ecommerce-frontend-description": "En nuestro proyecto final de React en Coderhouse, creamos un E-commerce donde la consigna era poder comprar los productos seleccionados. Contando con un carrito y un formulario de compra. Alojando los datos en Firebase.Aprendiendo así las bases de esta biblioteca.",
+  "ecommerce-frontend-title": "E-commerce | Frontend",
+  "ecommerce-frontend-description": "Proyecto final de React en Coderhouse.",
+  "ecommerce-frontend-description-info": "E-commerce donde el usuario puede agregar items al carrito y un formulario de compra para enviar la órden con los productos seleccionados. Alojando los datos en Firebase. Aprendiendo así las bases de esta biblioteca." ,
+
 
   "cryptostatus-title": "CryptoStatus | Cotizador de Criptomonedas",
-  "cryptostatus-description": "Información sobre criptomonedas en tiempo real, conectado a CryptoCompare API. La idea de este proyecto fue seguir practicando con React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño, Zod para la validación de datos y Zustand para el manejo de estados.",
+  "cryptostatus-description": "Información sobre criptomonedas en tiempo real.",
+  "cryptostatus-description-info": "Conectado a CryptoCompare API. La idea de este proyecto fue seguir practicando con React, sumando TypeScript para aprender sus conceptos básicos. Se utilizó Tailwind para el diseño, Zod para la validación de datos y Zustand para el manejo de estados." ,
 
   "myrestaurant-title": "Mi Restaurante",
-  "myrestaurant-description": "Simula la gestión de un restaurante. El empleado puede interactuar con la carta, añadir productos a la lista de pedidos, calcular la propina del cliente y generar el total para emitir un ticket. Este proyecto tiene como objetivo reforzar mis habilidades en React y profundizar en los conceptos básicos de TypeScript. Además, TailwindCSS se utilizó para crear un diseño limpio y responsivo. Planeo ampliar sus funcionalidades en el futuro para seguir desarrollando y mejorando esta aplicación, explorando nuevas tecnologías y casos de uso.",
+  "myrestaurant-description": "Simula la gestión de un restaurante para manejar sus órdenes y comidas.",
+  "myrestaurant-description-info": "El empleado puede interactuar con la carta, añadir productos a la lista de pedidos, calcular la propina del cliente y generar el total para emitir un ticket. Este proyecto tiene como objetivo reforzar mis habilidades en React y profundizar en los conceptos básicos de TypeScript. Además, TailwindCSS se utilizó para crear un diseño limpio y responsivo. Planeo ampliar sus funcionalidades en el futuro para seguir desarrollando y mejorando esta aplicación, explorando nuevas tecnologías y casos de uso." ,
 
-  "ecommerce-fullstack-title": "Ecommerce | Full Stack",
-  "ecommerce-fullstack-description": "Proyecto final del curso Programación Backend, Coderhouse. Creamos una API REST funcional, utilizando vistas con Handlebars.js. Permitiendo a los usuarios poder realizar compras, con pasarela de pago STRIPE. El usuario ADMIN puede realizar CRUD de productos y editar o eliminar usuarios. Documentación de la API con Swagger.",
+  "ecommerce-fullstack-title": "E-commerce | Full Stack",
+  "ecommerce-fullstack-description": "Proyecto final del curso Programación Backend, Coderhouse, e-commerce con integración de Backend y pasarela de pagos.",
+  "ecommerce-fullstack-description-info": "Desarrollo de API REST funcional, utilizando vistas con Handlebars.js. Permitiendo a los usuarios poder realizar compras, con pasarela de pago STRIPE. El usuario ADMIN puede realizar CRUD de productos y editar o eliminar usuarios. Documentación de la API con Swagger." ,
 
-  "visit-website": "web",
+  "visit-website": "Visitar",
   "about": "Sobre Mí",
   "about-beginning": "Inicios",
   "about-beginning-description": "A finales de 2022, comencé mi camino en la programación atraído por el desafío de resolver problemas y crear aplicaciones web. Desde entonces, he enfocado mis esfuerzos en desarrollar habilidades prácticas y una mentalidad orientada al aprendizaje constante.",
