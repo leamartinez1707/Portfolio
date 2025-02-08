@@ -66,7 +66,7 @@ const Proyects = () => {
                         modalObject={modalObject}
                         openModal={openModal}
                     />
-                    <CarouselComponent
+                    {/* <CarouselComponent
                         img1='/proyects/proyect2_1.webp'
                         img2='/proyects/proyect2_2.webp'
                         img3='/proyects/proyect2_3.webp'
@@ -83,7 +83,7 @@ const Proyects = () => {
                         handleCloseModal={handleCloseModal}
                         modalObject={modalObject}
                         openModal={openModal}
-                    />
+                    /> */}
                     <CarouselComponent
                         img1='/proyects/project8_1.webp'
                         img3='/proyects/project8_3.webp'
