@@ -59,31 +59,13 @@ const Proyects = () => {
                         description='saludnet-description'
                         descriptionInfo='saludnet-description-info'
                         technologies={['NODE', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'TAILWIND', 'VERCEL']}
-                        weblink='https://c20-37-n-node-react.vercel.app/'
-                        github='https://github.com/No-Country-simulation/c20-37-n-node-react'
+                        weblink='https://saludnet.vercel.app/'
+                        github='https://github.com/leamartinez1707/c20-37-n-node-react.'
                         handleOpenModal={handleOpenModal}
                         handleCloseModal={handleCloseModal}
                         modalObject={modalObject}
                         openModal={openModal}
                     />
-                    {/* <CarouselComponent
-                        img1='/proyects/proyect2_1.webp'
-                        img2='/proyects/proyect2_2.webp'
-                        img3='/proyects/proyect2_3.webp'
-                        alt1='Primera imagen del proyecto número tres'
-                        alt2='Segunda imagen del proyecto número tres'
-                        alt3='Tercera imagen del proyecto número tres'
-                        title='ecommerce-fullstack-title'
-                        description='ecommerce-fullstack-description'
-                        descriptionInfo='ecommerce-fullstack-description-info'
-                        technologies={['EXPRESS', 'HANDLEBARS', 'TAILWIND', 'MONGODB', 'STRIPE', 'SWAGGER', 'PASSPORTJS', 'MOCHA&CHAI', 'SOCKET.IO']}
-                        weblink='https://backend-47290.onrender.com/'
-                        github='https://github.com/leamartinez1707/backend-47290'
-                        handleOpenModal={handleOpenModal}
-                        handleCloseModal={handleCloseModal}
-                        modalObject={modalObject}
-                        openModal={openModal}
-                    /> */}
                     <CarouselComponent
                         img1='/proyects/project8_1.webp'
                         img3='/proyects/project8_3.webp'
@@ -95,7 +77,7 @@ const Proyects = () => {
                         description='uptask-description'
                         descriptionInfo='uptask-description-info'
                         technologies={['TYPESCRIPT', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'REACT QUERY', 'TAILWIND']}
-                        weblink='https://uptask-projectmanagement-phi.vercel.app/'
+                        weblink='https://uptask-projectmanagement-phi.vercel.app/auth/login'
                         github='https://github.com/leamartinez1707/mytasks-frontend'
                         handleOpenModal={handleOpenModal}
                         handleCloseModal={handleCloseModal}
