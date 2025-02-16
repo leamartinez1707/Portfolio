@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import GithubIcon from '../Icons/GithubIcon';
 import LinkedinIcon from '../Icons/LinkedinIcon';
 import MailIcon from '../Icons/MailIcon';
-import { a } from 'framer-motion/client';
 
 const Profile = () => {
 
