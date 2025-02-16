@@ -61,10 +61,10 @@ export const HardSkills = () => {
                         animate='fade-down'
                     />
                     <HabilitiesCard
-                        title='Bootstrap'
-                        image='https://skillicons.dev/icons?i=bootstrap'
-                        alt='Bootstrap icon'
-                        link='https://getbootstrap.com/'
+                        title='Next.js'
+                        image='https://skillicons.dev/icons?i=next'
+                        alt='Next icon'
+                        link='https://nextjs.org/'
                         animate='fade-up'
                     />
                 </div >
@@ -72,13 +72,6 @@ export const HardSkills = () => {
             <hr />
             <div className="flex align-middle items-center py-10">
                 <div className="habilities-icons my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
-                    <HabilitiesCard
-                        title='Node.js'
-                        image='https://skillicons.dev/icons?i=nodejs'
-                        alt='Nodejs icon'
-                        link='https://nodejs.org/en/learn/getting-started/introduction-to-nodejs'
-                        animate='fade-up'
-                    />
                     <HabilitiesCard
                         title='Javascript'
                         image='https://skillicons.dev/icons?i=js'
@@ -94,17 +87,17 @@ export const HardSkills = () => {
                         animate='fade-up'
                     />
                     <HabilitiesCard
-                        title='Nest.js'
-                        image='https://skillicons.dev/icons?i=nestjs'
-                        alt='Nest icon'
-                        link='https://nestjs.com/'
-                        animate='fade-up'
-                    />
-                    <HabilitiesCard
                         title='Express'
                         image='https://skillicons.dev/icons?i=express'
                         alt='Express icon'
                         link='https://expressjs.com/'
+                        animate='fade-up'
+                    />
+                    <HabilitiesCard
+                        title='Nest.js'
+                        image='https://skillicons.dev/icons?i=nestjs'
+                        alt='Nest icon'
+                        link='https://nestjs.com/'
                         animate='fade-up'
                     />
                 </div >
@@ -115,6 +108,13 @@ export const HardSkills = () => {
                 <h4 className="my-6 mx-auto text-xl md:text-4xl anta-regular">{t('others')}</h4>
                 {/* habilities-icons */}
                 <div className="my-4 justify-center max-w-4xl mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 sm:p-6">
+                    <HabilitiesCard
+                        title='Node.js'
+                        image='https://skillicons.dev/icons?i=nodejs'
+                        alt='Nodejs icon'
+                        link='https://nodejs.org/en/learn/getting-started/introduction-to-nodejs'
+                        animate='fade-up'
+                    />
                     <HabilitiesCard
                         title='Vite'
                         image='https://skillicons.dev/icons?i=vite'
@@ -148,6 +148,13 @@ export const HardSkills = () => {
                         image='https://skillicons.dev/icons?i=aws'
                         alt='Amazon web services icon'
                         link='https://aws.amazon.com/es/'
+                        animate='fade-up'
+                    />
+                    <HabilitiesCard
+                        title='Docker'
+                        image='https://skillicons.dev/icons?i=docker'
+                        alt='Docker icon'
+                        link='https://www.docker.com/'
                         animate='fade-up'
                     />
                     <HabilitiesCard
@@ -186,12 +193,20 @@ export const HardSkills = () => {
                         animate='fade-down'
                     />
                     <HabilitiesCard
+                        title='Prisma'
+                        image='https://skillicons.dev/icons?i=prisma'
+                        alt='Prisma icon'
+                        link='https://sequelize.org/'
+                        animate='fade-down'
+                    />
+                    <HabilitiesCard
                         title='Sequelize'
                         image='https://skillicons.dev/icons?i=sequelize'
                         alt='Sequelize icon'
                         link='https://sequelize.org/'
                         animate='fade-down'
                     />
+
                 </div >
             </div>
         </div>

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import LanguageSwitcher from '../Language/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
+
 const Navbar = (props) => {
 
         const { navbar_items } = props

@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next"
+import { ImWhatsapp } from "react-icons/im"
 
 const Contact = () => {
 
-    const {t} = useTranslation()
+    const { t } = useTranslation()
     return (
         <section
             data-aos="fade-right"
@@ -49,7 +50,7 @@ const Contact = () => {
                     <ul className="flex mt-3 space-x-4">
                         <li className="flex items-center">
                             <a className="text-sm text-white hover:underline hover:cursor-pointer" href="https://wa.link/qroge1" target="_blank">
-                                <img className="size-10 rounded-full flex items-center justify-center shrink-0" src="https://cdn.icon-icons.com/icons2/41/PNG/128/whatsappmessage_conversation_whatsap_7149.png" alt="Linkedin Icon" />
+                                <ImWhatsapp className="text-4xl fill-green-500" />
                             </a>
                         </li>
                     </ul>
