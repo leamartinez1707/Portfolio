@@ -27,21 +27,23 @@
     "responsability": "Responsibility",
     "teamwork": "Teamwork",
     "projects": "Projects",
+
     "saludnet-title": "SaludNet | Health Platform",
     "saludnet-description": "SaludNet is a digital telemedicine platform designed to simplify and optimize access to health services.",
     "saludnet-description-info": "It allows patients to receive medical care remotely and providers to manage consultations more efficiently. With advanced features for scheduling appointments, issuing orders and digital prescriptions, accessing medical records, and conducting video consultations, SaludNet improves the experience for both patients and medical professionals, and also facilitates the administration of services.",
-    "uptask-title": "Uptask",
-    "uptask-description": "Application to manage projects, with an authentication system.",
-    "uptask-description-info": "Express was used for the Backend and Mongoose to connect it with the MongoDB database. React for the Frontend and styled with Tailwind, Chakra, Headlessui and Drag and drop implemented with DND Kit. The project uses TypeScript in both stacks and React Query for data management.",
-    "ecommerce-frontend-title": "E-commerce | Frontend",
-    "ecommerce-frontend-description": "Final React project at Coderhouse.",
-    "ecommerce-frontend-description-info": "E-commerce where the user can add items to the cart and a purchase form to send the order with the selected products. Hosting the data in Firebase. Thus learning the basics of this library.",
+
+    "uptask-title": "Uptask | Project Manager",
+    "uptask-description": "Task managemen with Kanban methodology and authentication system.",
+    "uptask-description-info": "Express was used for the Backend and Mongoose to connect it with the MongoDB database. React for the Frontend and styled with Tailwind, Chakra, Headlessui and Drag and drop implemented with DND Kit. The project uses TypeScript in both stacks and React Query for data management. You can test the platform with these credentials: email: leandromart@hotmail.com, password: usertest.",
+
     "cryptostatus-title": "CryptoStatus | Cryptocurrency Quoter",
     "cryptostatus-description": "Real-time cryptocurrency information.",
     "cryptostatus-description-info": "Connected to CryptoCompare API. The idea of this project was to continue practicing with React, adding TypeScript to learn its basic concepts. Tailwind was used for the design, Zod for data validation, and Zustand for state management.",
+
     "myrestaurant-title": "My Restaurant",
     "myrestaurant-description": "Simulates the management of a restaurant to handle its orders and meals.",
     "myrestaurant-description-info": "The employee can interact with the menu, add products to the order list, calculate the customer's tip, and generate the total to issue a ticket. This project aims to reinforce my skills in React and delve into the basic concepts of TypeScript. Additionally, TailwindCSS was used to create a clean and responsive design. I plan to expand its functionalities in the future to continue developing and improving this application, exploring new technologies and use cases.",
+
     "ecommerce-fullstack-title": "E-commerce | Full Stack",
     "ecommerce-fullstack-description": "Final project of the Backend Programming course, Coderhouse, e-commerce with Backend integration and payment gateway.",
     "ecommerce-fullstack-description-info": "Development of a functional REST API, using views with Handlebars.js. Allowing users to make purchases, with STRIPE payment gateway. The ADMIN user can perform CRUD operations on products and edit or delete users. API documentation with Swagger.",

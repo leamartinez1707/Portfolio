@@ -10,7 +10,7 @@ const About = () => {
             data-aos-offset="500"
             data-aos-duration="500"
             id="infoSection"
-            className='flex flex-col mt-12 md:mt-24 max-w-xs sm:max-w-2xl lg:max-w-6xl'>
+            className='flex flex-col mt-12 md:mt-10 max-w-xs sm:max-w-2xl lg:max-w-6xl'>
             <div
                 className='my-2'>
                 <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">
