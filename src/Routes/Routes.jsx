@@ -12,7 +12,7 @@ const RoutesNav = () => {
             name: "about"
         },
         {
-            path: "#proyectsSection",
+            path: "#projectsSection",
             name: "projects"
         },
         {

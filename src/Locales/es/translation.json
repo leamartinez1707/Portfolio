@@ -32,14 +32,9 @@
   "saludnet-description": "SaludNet es una plataforma digital de telemedicina diseñada para simplificar y optimizar el acceso a servicios de salud.",
   "saludnet-description-info": "Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios." ,
 
-  "uptask-title": "Uptask",
-  "uptask-description": "Aplicación para administrar proyectos, cuenta con un sistema de autenticación. ",
-  "uptask-description-info": "Se utilizó Express para el Backend y Mongoose para conectarlo con la base de datos MongoDB. React para el Frontend y fue estilizado con Tailwind, Chakra, Headlessui y se implemenentó Drag and drop con DND Kit. El proyecto utiliza TypeScript en ambos stacks y React Query para el manejo de datos." ,
-
-  "ecommerce-frontend-title": "E-commerce | Frontend",
-  "ecommerce-frontend-description": "Proyecto final de React en Coderhouse.",
-  "ecommerce-frontend-description-info": "E-commerce donde el usuario puede agregar items al carrito y un formulario de compra para enviar la órden con los productos seleccionados. Alojando los datos en Firebase. Aprendiendo así las bases de esta biblioteca." ,
-
+  "uptask-title": "Uptask | Administrador de proyectos",
+  "uptask-description": "Gestión de tareas con método Kanban, colaboradores y sistema de autenticación.",
+  "uptask-description-info": "Se utilizó Express para el Backend y Mongoose para conectarlo con la base de datos MongoDB. React para el Frontend y fue estilizado con Tailwind, Chakra, Headlessui y se implemenentó Drag and drop con DND Kit. El proyecto utiliza TypeScript en ambos stacks y React Query para el manejo de datos. Puede probar la plataforma con estas credenciales: usuario: leandromart@hotmail.com, contraseña: usertest.",
 
   "cryptostatus-title": "CryptoStatus | Cotizador de Criptomonedas",
   "cryptostatus-description": "Información sobre criptomonedas en tiempo real.",

@@ -1,0 +1,28 @@
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px * 14);
+    /* 7 slides x 2 (original + duplicado) */
+    animation: scroll 40s linear infinite;
+}
+
+.slide {
+    width: 250px;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+        /* solo la mitad, o sea una tanda de slides */
+    }
+}

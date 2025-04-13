@@ -11,6 +11,7 @@ import {
     FaUsers as TeamworkIcon,
 } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import "./habilities.css";
 
 const softSkills = [
     { name: 'adaptability', icon: AdaptabilityIcon },
@@ -28,20 +29,24 @@ const softSkills = [
 export const SoftSkills = () => {
     const { t } = useTranslation();
     return (
-        <section className="">
+        <section className="pt-10">
             <h3
+                data-aos="fade-left"
+                data-aos-duration="800"
                 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">{t('soft-skills')}</h3>
             <div
-                className="flex flex-wrap w-full justify-center gap-6 my-10 max-w-4xl">
-                {softSkills.map((skill) => (
-                    <div
-                        key={skill.name}
-                        className="flex flex-col items-center justify-center  text-white text-center p-4 rounded-lg shadow-md size-32transition-transform hover:scale-105"
-                    >
-                        <skill.icon className="w-12 h-12 mb-2" />
-                        <span className="text-sm font-medium">{t(`${skill.name}`)}</span>
-                    </div>
-                ))}
+                className="slider w-full justify-center gap-6 my-10 max-w-4xl">
+                <div className="slide-track mt-10">
+                    {[...softSkills, ...softSkills, ...softSkills].map((skill) => (
+                        <div
+                            key={skill.name}
+                            className="slide flex flex-col items-center justify-center  text-white text-center p-4 rounded-lg shadow-md size-32 transition-transform hover:scale-105"
+                        >
+                            <skill.icon className="size-[80px] mb-2" />
+                            <span className="text-sm font-medium">{t(`${skill.name}`)}</span>
+                        </div>
+                    ))}
+                </div>
             </div>
 
         </section>

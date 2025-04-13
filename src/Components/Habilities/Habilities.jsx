@@ -1,4 +1,5 @@
-import { HardSkills } from "./HardSkills"
+// import { HardSkills } from "./HardSkills"
+import { HardSkills } from "./HardSkill"
 import { SoftSkills } from "./SoftSkills"
 
 const Habilities = () => {
