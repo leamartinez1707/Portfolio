@@ -5,10 +5,8 @@ const About = () => {
 
     return (
         <div
-            data-aos="fade-right"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
+            data-aos="zoom-in"
+            data-aos-duration="3000"
             id="infoSection"
             className='flex flex-col mt-12 md:mt-10 max-w-xs sm:max-w-2xl lg:max-w-6xl'>
             <div

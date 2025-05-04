@@ -35,19 +35,33 @@ const Projects = () => {
 
     return (
         <div
-            data-aos="fade-left"
-            data-aos-anchor="example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
             id='projectsSection'>
             <div
                 className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4 mt-8 md:mt-12">
 
-                <div className='max-w-4xl my-2 text-left'>
+                <div className='max-w-4xl my-2 text-left'> 
                     <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">{t('projects')}</h1>
                 </div>
 
                 <div className='gap-y-4 md:gap-y-12 flex flex-col'>
+                    <CarouselComponent
+                        img3='/projects/aasa_1.png'
+                        img1='/projects/aasa_2.png'
+                        img2='/projects/aasa_3.png'
+                        alt1='Primera imagen del proyecto número cinco'
+                        alt2='Segunda imagen del proyecto número cinco'
+                        alt3='Tercera imagen del proyecto número cinco'
+                        title='aasa-title'
+                        description='aasa-description'
+                        descriptionInfo='aasa-description-info'
+                        technologies={['NODE', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'TAILWIND', 'VERCEL', 'RENDER', 'WSP-API']}
+                        weblink='https://avelinoacevedo.com.uy/'
+                        github='#'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
+                    />
                     <CarouselComponent
                         img3='/projects/project5_2.png'
                         img1='/projects/project5_1.png'

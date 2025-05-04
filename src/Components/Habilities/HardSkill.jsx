@@ -36,7 +36,7 @@ export const HardSkills = () => {
         { title: "Sequelize", image: "https://skillicons.dev/icons?i=sequelize", link: "https://sequelize.org/" },
     ];
     return (
-        <div className="">
+        <div>
             <div className="text-center mb-10">
                 <h3
                     data-aos="fade-right"
@@ -46,7 +46,6 @@ export const HardSkills = () => {
                     {t("hard-skills")}
                 </h3>
             </div>
-
             {/* Secciones de habilidades */}
             <SkillSection title="frontend" skills={frontendSkills} />
             <SkillSection title="backend" skills={backendSkills} />
