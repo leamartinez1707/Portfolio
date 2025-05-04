@@ -28,9 +28,14 @@
   "teamwork": "Trabajo en Equipo",
   "projects": "Proyectos",
 
+
+  "aasa-title": "Avelino Acevedo | Gestión de servicios técnicos",
+  "aasa-description": "Gestión de servicios técnicos para monopatínes, bicicletas eléctricas y herramientas.",
+  "aasa-description-info": "La plataforma permite a la empresa gestionar y monitorear los servicios técnicos realizados. Con la implementación de Whatsapp para la comunicación entre la empresa y el cliente que solicita el servicio. El sistema está diseñado para ser intuitivo y fácil de usar, permitiendo a los técnicos acceder rápidamente a la información necesaria para realizar su trabajo de manera eficiente. También cuenta con un calendario que permite ver todos los servicios y su duración, para un mejor control del tiempo. Esto permitió a la empresa mejorar su eficiencia operativa y brindar un mejor servicio al cliente." ,
+
   "saludnet-title": "SaludNet | Plataforma de Salud",
   "saludnet-description": "SaludNet es una plataforma digital de telemedicina diseñada para simplificar y optimizar el acceso a servicios de salud.",
-  "saludnet-description-info": "Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios." ,
+  "saludnet-description-info": "Permite a los pacientes recibir atención médica a distancia y a los proveedores administrar consultas de manera más eficiente. Con funcionalidades avanzadas para programar citas, emitir órdenes y recetas digitales, acceder a historiales clínicos y realizar videoconsultas, SaludNet mejora la experiencia tanto para los pacientes como para los profesionales médicos, y también facilita la administración de servicios. Puede probar la plataforma con estas credenciales: usuario: admin@test.com, contraseña: admintest." ,
 
   "uptask-title": "Uptask | Administrador de proyectos",
   "uptask-description": "Gestión de tareas con método Kanban, colaboradores y sistema de autenticación.",

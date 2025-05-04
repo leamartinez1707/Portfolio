@@ -11,7 +11,8 @@ import {
     FaUsers as TeamworkIcon,
 } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import "./habilities.css";
+import HabilitiesSwiper from "./HabilitiesSwiper";
+import { SwiperSlide } from "swiper/react";
 
 const softSkills = [
     { name: 'adaptability', icon: AdaptabilityIcon },
@@ -28,27 +29,26 @@ const softSkills = [
 
 export const SoftSkills = () => {
     const { t } = useTranslation();
+
     return (
         <section className="pt-10">
             <h3
                 data-aos="fade-left"
                 data-aos-duration="800"
-                className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">{t('soft-skills')}</h3>
-            <div
-                className="slider w-full justify-center gap-6 my-10 max-w-4xl">
-                <div className="slide-track mt-10">
-                    {[...softSkills, ...softSkills, ...softSkills].map((skill) => (
-                        <div
-                            key={skill.name}
-                            className="slide flex flex-col items-center justify-center  text-white text-center p-4 rounded-lg shadow-md size-32 transition-transform hover:scale-105"
-                        >
-                            <skill.icon className="size-[80px] mb-2" />
+                className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles"
+            >
+                {t('soft-skills')}
+            </h3>
+            <HabilitiesSwiper>
+                {softSkills.map((skill) => (
+                    <SwiperSlide key={skill.name}>
+                        <div className="flex flex-col pb-8 items-center justify-center text-white text-center p-4 rounded-lg shadow-sm transition-transform hover:cursor-pointer hover:scale-105">
+                            <skill.icon className="text-6xl pb-2" />
                             <span className="text-sm font-medium">{t(`${skill.name}`)}</span>
                         </div>
-                    ))}
-                </div>
-            </div>
-
+                    </SwiperSlide>
+                ))}
+            </HabilitiesSwiper>
         </section>
-    )
-}
+    );
+};

@@ -28,9 +28,13 @@
     "teamwork": "Teamwork",
     "projects": "Projects",
 
+   "aasa-title": "Avelino Acevedo | Technical Services Management",
+"aasa-description": "Management of technical services for scooters, electric bicycles, and tools.",
+"aasa-description-info": "The platform allows the company to manage and monitor the technical services performed. With the implementation of WhatsApp for communication between the company and the client requesting the service. The system is designed to be intuitive and easy to use, allowing technicians to quickly access the necessary information to perform their work efficiently. It also features a calendar that allows viewing all services and their duration for better time management. This enabled the company to improve its operational efficiency and provide better customer service.",
+
     "saludnet-title": "SaludNet | Health Platform",
     "saludnet-description": "SaludNet is a digital telemedicine platform designed to simplify and optimize access to health services.",
-    "saludnet-description-info": "It allows patients to receive medical care remotely and providers to manage consultations more efficiently. With advanced features for scheduling appointments, issuing orders and digital prescriptions, accessing medical records, and conducting video consultations, SaludNet improves the experience for both patients and medical professionals, and also facilitates the administration of services.",
+    "saludnet-description-info": "It allows patients to receive medical care remotely and providers to manage consultations more efficiently. With advanced features for scheduling appointments, issuing orders and digital prescriptions, accessing medical records, and conducting video consultations, SaludNet improves the experience for both patients and medical professionals, and also facilitates the administration of services. You can test the platform with these credentials: email: admin@test.com, password: admintest.",
 
     "uptask-title": "Uptask | Project Manager",
     "uptask-description": "Task managemen with Kanban methodology and authentication system.",
