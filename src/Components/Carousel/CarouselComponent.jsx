@@ -2,7 +2,7 @@
 import { Carousel, IconButton, Dialog, DialogBody, DialogHeader, Button } from '@material-tailwind/react'
 import { useState } from "react";
 import { useTranslation } from 'react-i18next';
-export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, description, descriptionInfo, technologies, title, weblink, github, handleOpenModal }) => {
+export const CarouselComponent = ({ img1, img2, img3, img4, alt1, alt2, alt3, alt4, description, descriptionInfo, technologies, title, weblink, github, handleOpenModal }) => {
 
     const { t } = useTranslation()
     const [open, setOpen] = useState(false);
@@ -96,6 +96,13 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                             className="size-full object-cover hover:cursor-pointer"
                             onClick={() => handleOpen(img3)}
                         />
+                        {img4 && <img
+                            src={img4}
+                            alt={alt4}
+                            className="size-full object-cover hover:cursor-pointer"
+                            onClick={() => handleOpen(img4)}
+                        />}
+
                     </Carousel>
                     <Dialog size="xl" open={open} handler={handleOpen}>
                         <DialogHeader
@@ -130,7 +137,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                     {technologies?.map((techName, index) => (
                         <div
                             key={index}
-                            className='bg-violet-300 text-gray-800 text-xs font-medium inline-flex items-center gap-1 px-2.5 rounded-sm mb-2 p-2'>
+                            className='bg-violet-500/80 text-white border-white shadow-inner shadow-violet-300 text-xs font-medium inline-flex items-center gap-1 px-2.5 rounded-sm mb-2 p-2'>
                             <p>{t(`${techName}`)}</p>
 
                         </div>

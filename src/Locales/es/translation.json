@@ -49,6 +49,14 @@
   "myrestaurant-description": "Simula la gestión de un restaurante para manejar sus órdenes y comidas.",
   "myrestaurant-description-info": "El empleado puede interactuar con la carta, añadir productos a la lista de pedidos, calcular la propina del cliente y generar el total para emitir un ticket. Este proyecto tiene como objetivo reforzar mis habilidades en React y profundizar en los conceptos básicos de TypeScript. Además, TailwindCSS se utilizó para crear un diseño limpio y responsivo. Planeo ampliar sus funcionalidades en el futuro para seguir desarrollando y mejorando esta aplicación, explorando nuevas tecnologías y casos de uso." ,
 
+  "todomuebles-title": "TodoMuebles.uy | Carpintería",
+  "todomuebles-description": "Web de carpintería para la venta de muebles personalizados.",
+  "todomuebles-description-info": "Desarrollo de página web para un emprendimiento, donde se muestran los trabajos realizados y se pueden solicitar presupuestos personalizados por Whatsapp. Se utilizó Next para el Frontend y se implementó un formulario de contacto con validación de datos. El diseño es responsivo utilizando TailwindCSS para estilizar la web." ,
+
+  "next-tienda-title": "FastFood | Web App en tiempo real",
+  "next-tienda-description": "Aplicación web para gestionar pedidos en tiempo real.",
+  "next-tienda-description-info": "Desarrollo de una aplicación web para gestionar pedidos en tiempo real, utilizando Next.js y MongoDB. La aplicación permite a los usuarios realizar pedidos y recibir actualizaciones en tiempo real sobre el estado de sus solicitudes. El administrador cuenta con un panel para agregar o eliminar productos, y ver las órdenes pendientes. Los usuarios cuentan con un sector para realizar pedidos y otro para ver si su pedido ya se puede retirar. El diseño es responsivo y se utilizó TailwindCSS para estilizar la aplicación." ,
+
   "ecommerce-fullstack-title": "E-commerce | Full Stack",
   "ecommerce-fullstack-description": "Proyecto final del curso Programación Backend, Coderhouse, e-commerce con integración de Backend y pasarela de pagos.",
   "ecommerce-fullstack-description-info": "Desarrollo de API REST funcional, utilizando vistas con Handlebars.js. Permitiendo a los usuarios poder realizar compras, con pasarela de pago STRIPE. El usuario ADMIN puede realizar CRUD de productos y editar o eliminar usuarios. Documentación de la API con Swagger." ,
