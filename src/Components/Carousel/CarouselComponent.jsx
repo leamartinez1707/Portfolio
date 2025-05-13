@@ -130,7 +130,7 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                     {technologies?.map((techName, index) => (
                         <div
                             key={index}
-                            className='bg-violet-300 text-gray-800 text-xs font-medium inline-flex items-center gap-1 px-2.5 rounded-sm mb-2 p-2'>
+                            className='bg-violet-500/80 text-white border-white shadow-inner shadow-violet-300 text-xs font-medium inline-flex items-center gap-1 px-2.5 rounded-sm mb-2 p-2'>
                             <p>{t(`${techName}`)}</p>
 
                         </div>

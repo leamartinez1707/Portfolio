@@ -39,7 +39,7 @@ const Projects = () => {
             <div
                 className="grid grid-cols-1 md:grid-cols-1 gap-x-2 gap-y-4 mt-8 md:mt-12">
 
-                <div className='max-w-4xl my-2 text-left'> 
+                <div className='max-w-4xl my-2 text-left'>
                     <h1 className="my-2 sm:my-4 text-4xl sm:text-5xl cursor-pointer uppercase text-left anta-regular text-titles">{t('projects')}</h1>
                 </div>
 
@@ -63,18 +63,18 @@ const Projects = () => {
                         openModal={openModal}
                     />
                     <CarouselComponent
-                        img3='/projects/project5_2.png'
-                        img1='/projects/project5_1.png'
-                        img2='/projects/project5_3.png'
-                        alt1='Primera imagen del proyecto número cinco'
-                        alt2='Segunda imagen del proyecto número cinco'
-                        alt3='Tercera imagen del proyecto número cinco'
-                        title='saludnet-title'
-                        description='saludnet-description'
-                        descriptionInfo='saludnet-description-info'
-                        technologies={['NODE', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'TAILWIND', 'VERCEL']}
-                        weblink='https://saludnet.vercel.app/'
-                        github='https://github.com/leamartinez1707/c20-37-n-node-react.'
+                        img1='/projects/todomuebles_1.png'
+                        img2='/projects/todomuebles_2.png'
+                        img3='/projects/todomuebles_3.png'
+                        alt="Primera imagen del proyecto número dos"
+                        al2="Segunda imagen del proyecto número dos"
+                        alt3="Tercera imagen del proyecto número dos"
+                        title='todomuebles-title'
+                        description='todomuebles-description'
+                        descriptionInfo='todomuebles-description-info'
+                        technologies={['NEXT', 'TAILWIND', 'TYPESCRIPT', 'HEADLESSUI', 'NODEMAILER']}
+                        weblink='https://todomueblesuy.vercel.app/home'
+                        github='#'
                         handleOpenModal={handleOpenModal}
                         handleCloseModal={handleCloseModal}
                         modalObject={modalObject}
@@ -99,6 +99,24 @@ const Projects = () => {
                         openModal={openModal}
                     />
                     <CarouselComponent
+                        img3='/projects/project5_2.png'
+                        img1='/projects/project5_1.png'
+                        img2='/projects/project5_3.png'
+                        alt1='Primera imagen del proyecto número cinco'
+                        alt2='Segunda imagen del proyecto número cinco'
+                        alt3='Tercera imagen del proyecto número cinco'
+                        title='saludnet-title'
+                        description='saludnet-description'
+                        descriptionInfo='saludnet-description-info'
+                        technologies={['NODE', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'TAILWIND', 'VERCEL']}
+                        weblink='https://saludnet.vercel.app/'
+                        github='https://github.com/leamartinez1707/c20-37-n-node-react.'
+                        handleOpenModal={handleOpenModal}
+                        handleCloseModal={handleCloseModal}
+                        modalObject={modalObject}
+                        openModal={openModal}
+                    />
+                    <CarouselComponent
                         img1='/projects/project6_1.png'
                         img3='/projects/project6_2.png'
                         img2='/projects/project6_3.png'
@@ -111,24 +129,6 @@ const Projects = () => {
                         technologies={['REACT', 'TYPESCRIPT', 'ZOD', 'ZUSTAND', 'TAILWIND']}
                         weblink='https://criptomoneda-divisas.netlify.app/'
                         github='https://github.com/leamartinez1707/cripto-status'
-                        handleOpenModal={handleOpenModal}
-                        handleCloseModal={handleCloseModal}
-                        modalObject={modalObject}
-                        openModal={openModal}
-                    />
-                    <CarouselComponent
-                        img1='/projects/project3_1.webp'
-                        img2='/projects/project3_2.webp'
-                        img3='/projects/project3_3.webp'
-                        alt="Primera imagen del proyecto número dos"
-                        al2="Segunda imagen del proyecto número dos"
-                        alt3="Tercera imagen del proyecto número dos"
-                        title='myrestaurant-title'
-                        description='myrestaurant-description'
-                        descriptionInfo='myrestaurant-description-info'
-                        technologies={['VITE', 'REACT', 'TAILWIND', 'JWT', 'NOTISTACK', 'HEADLESSUI', 'TYPESCRIPT']}
-                        weblink='https://mirestauranteuy.netlify.app/'
-                        github='https://github.com/leamartinez1707/mirestaurante'
                         handleOpenModal={handleOpenModal}
                         handleCloseModal={handleCloseModal}
                         modalObject={modalObject}
