@@ -2,7 +2,7 @@
 import { Carousel, IconButton, Dialog, DialogBody, DialogHeader, Button } from '@material-tailwind/react'
 import { useState } from "react";
 import { useTranslation } from 'react-i18next';
-export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, description, descriptionInfo, technologies, title, weblink, github, handleOpenModal }) => {
+export const CarouselComponent = ({ img1, img2, img3, img4, alt1, alt2, alt3, alt4, description, descriptionInfo, technologies, title, weblink, github, handleOpenModal }) => {
 
     const { t } = useTranslation()
     const [open, setOpen] = useState(false);
@@ -96,6 +96,13 @@ export const CarouselComponent = ({ img1, img2, img3, alt1, alt2, alt3, descript
                             className="size-full object-cover hover:cursor-pointer"
                             onClick={() => handleOpen(img3)}
                         />
+                        {img4 && <img
+                            src={img4}
+                            alt={alt4}
+                            className="size-full object-cover hover:cursor-pointer"
+                            onClick={() => handleOpen(img4)}
+                        />}
+
                     </Carousel>
                     <Dialog size="xl" open={open} handler={handleOpen}>
                         <DialogHeader
