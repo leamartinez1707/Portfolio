@@ -110,7 +110,7 @@ const Projects = () => {
                         title='next-tienda-title'
                         description='next-tienda-description'
                         descriptionInfo='next-tienda-description-info'
-                        technologies={['TYPESCRIPT', 'EXPRESS', 'JWT', 'REACT', 'MONGODB', 'MONGOOSE', 'REACT QUERY', 'TAILWIND']}
+                        technologies={['TYPESCRIPT', 'NEXT.JS', 'TAILWIND', 'PRISMA', 'MONGODB', 'ZUSTAND', 'ZOD', 'SWR', 'CLOUDINARY', 'REACT TOASTIFY']}
                         weblink='https://next-tienda-one.vercel.app/order/cafe'
                         github='https://github.com/leamartinez1707/next-tienda'
                         handleOpenModal={handleOpenModal}
